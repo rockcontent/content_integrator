@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.buzzsumo.com/search/articles.json?api_key=api_key&num_days=99999&num_results=100&page=0&q=http://blog-url/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 07 Aug 2017 18:56:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 401 Unauthorized
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 3bae921b86f1babfaeff05a151808572
+      X-Runtime:
+      - '0.004794'
+      X-Rack-Cache:
+      - miss
+    body:
+      encoding: UTF-8
+      string: '{"error":"You are not authorized!"}'
+    http_version:
+  recorded_at: Mon, 07 Aug 2017 18:56:56 GMT
+recorded_with: VCR 3.0.3

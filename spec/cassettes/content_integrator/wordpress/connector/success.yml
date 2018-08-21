@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://produtoteste.rockcontent.com/?rcp-activate-plugin
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Rcp-Token:
+      - 2cMEAO2cLYICKtxfkgqVyw7L7N8Cij0OvusMYNkZJ_L0Lx2Q5/L9p1nxwdIOdpYg
+      App-Version:
+      - RC2
+      Host:
+      - produtoteste.rockcontent.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 02 Aug 2017 17:05:59 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dc9a33c5f3e5239150aa8483dd3864c7f1501693558; expires=Thu, 02-Aug-18
+        17:05:58 GMT; path=/; domain=.rockcontent.com; HttpOnly
+      Responded-By:
+      - rcp-plugin
+      Wordpress-Version:
+      - '4.8'
+      X-Php-Response-Code:
+      - '200'
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3882a007933f4bed-GRU
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA0yNwY4CIRAFf2XzzojAyKB8i4lhu3vjRHcg0LoHM/++8ea5
+        KlUvUBeWVZdyH8gvPPodGVfVls/78771yg+tKkPF9ko3qqvKqpbqLwy03mRF
+        Bod5plP6jjGweKbowsHHn4kTJ1dowmbARcv7UEiXZ1HhS1FkBOfTzh13Lnz5
+        lF3M8QSDTu3ylD6W+s4H66yDwV/t3LqM8cEO9giDdv30o53t5LFt/wAAAP//
+        AwAqf1me3wAAAA==
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 17:05:59 GMT
+recorded_with: VCR 3.0.3

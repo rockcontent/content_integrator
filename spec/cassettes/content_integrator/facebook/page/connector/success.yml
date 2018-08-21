@@ -1,0 +1,103 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/me?access_token=EAAT7InLGKxIBAPUZBz3nqUCjzI7AUrsZAU3Ys1dRUZB3QEVwE4zv77ZBJOJ1jek9U7S90EMiDOmbGJq1qvum7IZBTD7nY1sv2lX1YJyRgTypnexLyXSxa5SW6O7roWebOXypvHmmAwHfCnsKfaiElq7yeJZCXvlQC5Fw70RLOJvEwH2HFILGmK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - '"9e93fe55f8b37452f55f6a121f18da94815bcb10"'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '3115815'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - BP/dM7FR2Lc
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Debug:
+      - 8DmHtPKl/f7Fot34nGpfRbFgSDFj2eugGENqfzPIZePLW5R0BKns2y0F8DxBvt2jpMjrHo1Eocewx5/YblE5Gw==
+      Date:
+      - Mon, 26 Jun 2017 17:47:57 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '69'
+    body:
+      encoding: UTF-8
+      string: '{"name":"Festa promo\u00e7\u00f5es e eventos","id":"650110601844988"}'
+    http_version: 
+  recorded_at: Mon, 26 Jun 2017 17:48:03 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/me/picture?access_token=EAAT7InLGKxIBAPUZBz3nqUCjzI7AUrsZAU3Ys1dRUZB3QEVwE4zv77ZBJOJ1jek9U7S90EMiDOmbGJq1qvum7IZBTD7nY1sv2lX1YJyRgTypnexLyXSxa5SW6O7roWebOXypvHmmAwHfCnsKfaiElq7yeJZCXvlQC5Fw70RLOJvEwH2HFILGmK&redirect=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - '"1ccad0d6a3c88ae5400680cf87a49f6ad9f656d5"'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '3115815'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - G1VntB3CNeP
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - Atjo/j9MdIwqT5L/KMYrXSLjD35JJOCf9Aawl2x4U1qCJT8wJblpxhgBsgXumnO/3PJm23ak8eGHmkGKkiE8Sw==
+      Date:
+      - Mon, 26 Jun 2017 17:47:57 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '181'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":{"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/p50x50\/19029295_650110748511640_3810536270875623326_n.png?oh=2d707e1640c2d0d32f88028e6791e6c5&oe=59E0D276"}}'
+    http_version: 
+  recorded_at: Mon, 26 Jun 2017 17:48:03 GMT
+recorded_with: VCR 3.0.3

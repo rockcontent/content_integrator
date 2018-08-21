@@ -1,0 +1,140 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.medium.com/v1/tokens
+    body:
+      encoding: UTF-8
+      string: code=e886345ab4f8&client_id=fca79cdd39b6&client_secret=813383ad8fd1a394e0d278dde6a712371fe4b1b7&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flvh.me%3A3020%2Fintegrations%2Fauth%2Fmedium%2Fcallback
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Content-Length:
+      - '207'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - api.medium.com
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Mon, 18 Sep 2017 19:50:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '275'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d0c585a342dac45c0e589c3352c2e743d1505764254; expires=Tue, 18-Sep-18
+        19:50:54 GMT; path=/; domain=.medium.com; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Obvious-Info:
+      - 30658-589652c,589652c3fb
+      Link:
+      - <https://medium.com/humans.txt>; rel="humans"
+      X-Powered-By:
+      - Medium
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Expires:
+      - Thu, 09 Sep 1999 09:09:09 GMT
+      Pragma:
+      - no-cache
+      Tk:
+      - T
+      X-Opentracing:
+      - '{"ot-tracer-spanid":"1b31b7c40246d4a0","ot-tracer-traceid":"32c16b465269fdf4","ot-tracer-sampled":"true"}'
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a06d63beceb4a1e-GRU
+    body:
+      encoding: UTF-8
+      string: '{"token_type":"Bearer","access_token":"27e15adc32c0a512207053646d60ea99be89f8a7d43fae11b475a33ba1460c68e","refresh_token":"2bda995f6e2ceb90710700eebf1ce9fb2bd08c03bcefc82eac5997c91c170d683","scope":["basicProfile","listPublications","publishPost"],"expires_at":1510948254723}'
+    http_version: 
+  recorded_at: Mon, 18 Sep 2017 19:50:54 GMT
+- request:
+    method: get
+    uri: https://api.medium.com/v1/me
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Authorization:
+      - Bearer 27e15adc32c0a512207053646d60ea99be89f8a7d43fae11b475a33ba1460c68e
+      Host:
+      - api.medium.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 18 Sep 2017 19:50:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d4b58767c9478013f174b341402ca61201505764254; expires=Tue, 18-Sep-18
+        19:50:54 GMT; path=/; domain=.medium.com; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Obvious-Info:
+      - 30658-589652c,589652c3fb
+      Link:
+      - <https://medium.com/humans.txt>; rel="humans"
+      X-Powered-By:
+      - Medium
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Expires:
+      - Thu, 09 Sep 1999 09:09:09 GMT
+      Pragma:
+      - no-cache
+      Tk:
+      - T
+      X-Opentracing:
+      - '{"ot-tracer-spanid":"02b5ec6f59741dea","ot-tracer-traceid":"1d7adacf5eed3081","ot-tracer-sampled":"true"}'
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a06d64169fc814a-GRU
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA1SLsW7CMBQAfwW9ESWxjV9wkomBgaFjkbqhl2c7dYUJSmwG
+        EP+OCh3ocMvp7gaWEkF3g2ChA4W+7ddaKjbeqZ7XLdekrSLbo7GGjJIGeYVG
+        a4ONXjXkWGPdKoeeG98gFJBnN50oOujgOw9jZQPNUMCf2uVhXGxfKk/H3yil
+        89wJEZ0NOVY8RrF5H0Okwe3/pWxP5VPPparePh+SYIFSPpHL8jqUl4/PVF8v
+        h/P09VPB/f4AAAD//wMA09eCHvIAAAA=
+    http_version: 
+  recorded_at: Mon, 18 Sep 2017 19:50:55 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,266 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://s3-us-west-2.amazonaws.com/rc2-development/img/branco.jpg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - hPne+pNPptMwNUgUb3L1DjMfLsChIuxsIg7Qr6XF4xel+3sw6qv5KO7b+MJ02oI8kJH37PU5EfA=
+      X-Amz-Request-Id:
+      - CB0EAF6FA479C8EC
+      Date:
+      - Fri, 18 May 2018 13:58:07 GMT
+      Last-Modified:
+      - Tue, 06 Jun 2017 13:54:04 GMT
+      Etag:
+      - '"89aa61afff1043ba8eba836d9e87e64f"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - image/jpeg
+      Content-Length:
+      - '1129'
+      Server:
+      - AmazonS3
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        /9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABQ
+        AAD/4QMtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQg
+        YmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8
+        eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJB
+        ZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYt
+        MTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDov
+        L3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6
+        RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25z
+        LmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5h
+        ZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMu
+        YWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3Jl
+        YXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKE1hY2ludG9zaCkiIHht
+        cE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTI4OTM1Nzk0MkUzMTFFNzhEMEFC
+        NkJERDRBN0M5OTAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTI4OTM1
+        N0E0MkUzMTFFNzhEMEFCNkJERDRBN0M5OTAiPiA8eG1wTU06RGVyaXZlZEZy
+        b20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBMjg5MzU3NzQyRTMxMUU3
+        OEQwQUI2QkRENEE3Qzk5MCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpB
+        Mjg5MzU3ODQyRTMxMUU3OEQwQUI2QkRENEE3Qzk5MCIvPiA8L3JkZjpEZXNj
+        cmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVu
+        ZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAICAgICAgICAgIDAgICAwQD
+        AgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwM
+        DAwBAwMDBQQFCQYGCQ0LCQsNDw4ODg4PDwwMDAwMDw8MDAwMDAwPDAwMDAwM
+        DAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEIABAAEAMBEQACEQEDEQH/xABL
+        AAEBAAAAAAAAAAAAAAAAAAAACQEBAAAAAAAAAAAAAAAAAAAAABABAAAAAAAA
+        AAAAAAAAAAAAABEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Av4AA
+        AD//2Q==
+    http_version: 
+  recorded_at: Fri, 18 May 2018 13:58:07 GMT
+- request:
+    method: post
+    uri: https://upload.twitter.com/1.1/media/upload.json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        LS0tLS0tLS0tLS0tLVJ1YnlNdWx0aXBhcnRQb3N0DQpDb250ZW50LURpc3Bv
+        c2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9Im1lZGlhIjsgZmlsZW5hbWU9ImU2
+        OTE0NzNmNmY0MzdlYzNhMTE3NmViODFkZGU5ZTliMjAxODA1MTgtMTUwMDYt
+        YXlvb2xwIg0KQ29udGVudC1MZW5ndGg6IDExMjkNCkNvbnRlbnQtVHlwZTog
+        YXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtDQpDb250ZW50LVRyYW5zZmVyLUVu
+        Y29kaW5nOiBiaW5hcnkNCg0K/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAA
+        AP/sABFEdWNreQABAAQAAABQAAD/4QMtaHR0cDovL25zLmFkb2JlLmNvbS94
+        YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlI
+        enJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5z
+        Om1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4x
+        NDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRG
+        IHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYt
+        c3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHht
+        bG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6
+        eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5z
+        OnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+        b3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBD
+        UzYgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTI4
+        OTM1Nzk0MkUzMTFFNzhEMEFCNkJERDRBN0M5OTAiIHhtcE1NOkRvY3VtZW50
+        SUQ9InhtcC5kaWQ6QTI4OTM1N0E0MkUzMTFFNzhEMEFCNkJERDRBN0M5OTAi
+        PiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlp
+        ZDpBMjg5MzU3NzQyRTMxMUU3OEQwQUI2QkRENEE3Qzk5MCIgc3RSZWY6ZG9j
+        dW1lbnRJRD0ieG1wLmRpZDpBMjg5MzU3ODQyRTMxMUU3OEQwQUI2QkRENEE3
+        Qzk5MCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1w
+        bWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCE
+        AAICAgICAgICAgIDAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJ
+        CQoKCQkMDAwMDAwMDAwMDAwMDAwBAwMDBQQFCQYGCQ0LCQsNDw4ODg4PDwwM
+        DAwMDw8MDAwMDAwPDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEI
+        ABAAEAMBEQACEQEDEQH/xABLAAEBAAAAAAAAAAAAAAAAAAAACQEBAAAAAAAA
+        AAAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAABEBAAAAAAAAAAAAAAAAAAAA
+        AP/aAAwDAQACEQMRAD8Av4AAAD//2Q0KLS0tLS0tLS0tLS0tLVJ1YnlNdWx0
+        aXBhcnRQb3N0LS0NCg0K
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/6.1.0
+      Authorization:
+      - OAuth oauth_consumer_key="aJm6eTORJLqkpCpJZzTBiDCBO", oauth_nonce="9c5cc7f6246f65347b849c2dc1cdcfe9",
+        oauth_signature="FU42VFciGHi21whFTpfBuJhUzUY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1526651887", oauth_token="871757613222047744-LuERkhfXKoJynkNDzZY4EI3Qg50YV6c",
+        oauth_version="1.0"
+      Content-Type:
+      - multipart/form-data; boundary=-----------RubyMultipartPost
+      Content-Length:
+      - '1410'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '142'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 18 May 2018 13:58:07 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 18 May 2018 13:58:07 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_d
+      Set-Cookie:
+      - guest_id=v1%3A152665188710988674; Expires=Sun, 17 May 2020 13:58:07 GMT; Path=/;
+        Domain=.twitter.com
+      - lang=pt; Path=/
+      - personalization_id="v1_OrkT6337+qJVdIvTIAe5Lw=="; Expires=Sun, 17 May 2020
+        13:58:07 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      Vary:
+      - Origin
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 81e75414a4b513dc08b35c87c0777892
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '415'
+      X-Rate-Limit-Remaining:
+      - '411'
+      X-Rate-Limit-Reset:
+      - '1526653234'
+      X-Response-Time:
+      - '485'
+      X-Transaction:
+      - 003c0fa20066fe8e
+      X-Tsa-Request-Body-Time:
+      - '0'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"media_id":997476427325849600,"media_id_string":"997476427325849600","size":1129,"expires_after_secs":86400,"image":{"image_type":"image\/jpeg","w":16,"h":16}}'
+    http_version: 
+  recorded_at: Fri, 18 May 2018 13:58:08 GMT
+- request:
+    method: post
+    uri: https://api.twitter.com/1.1/statuses/update.json
+    body:
+      encoding: UTF-8
+      string: media_ids=997476427325849600&status=
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/6.1.0
+      Authorization:
+      - OAuth oauth_consumer_key="aJm6eTORJLqkpCpJZzTBiDCBO", oauth_nonce="2ba3dd00b0171625db78366f0d7c6a42",
+        oauth_signature="TGzkQSkwPFriN%2Fc5OL%2BGzp3LtDc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1526651888", oauth_token="871757613222047744-LuERkhfXKoJynkNDzZY4EI3Qg50YV6c",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1005'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 18 May 2018 13:58:08 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 18 May 2018 13:58:07 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_d
+      Set-Cookie:
+      - guest_id=v1%3A152665188772110057; Expires=Sun, 17 May 2020 13:58:07 GMT; Path=/;
+        Domain=.twitter.com
+      - lang=pt; Path=/
+      - personalization_id="v1_2kxSR4LUMpP74WmzLhqOxg=="; Expires=Sun, 17 May 2020
+        13:58:07 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - a107635b977ecd69ae137772e4af445b
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Time:
+      - '383'
+      X-Transaction:
+      - 000e0c6e009f5d9c
+      X-Tsa-Request-Body-Time:
+      - '0'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"created_at":"Fri May 18 13:58:07 +0000 2018","id":997476429775429632,"id_str":"997476429775429632","text":"https:\/\/t.co\/axtsJH9NJL","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[],"media":[{"id":997476427325849600,"id_str":"997476427325849600","indices":[0,23],"media_url":"http:\/\/pbs.twimg.com\/media\/Dde_hpqVQAAKmm9.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/Dde_hpqVQAAKmm9.jpg","url":"https:\/\/t.co\/axtsJH9NJL","display_url":"pic.twitter.com\/axtsJH9NJL","expanded_url":"https:\/\/twitter.com\/aplicativo_rc\/status\/997476429775429632\/photo\/1","type":"photo","sizes":{"large":{"w":16,"h":16,"resize":"fit"},"small":{"w":16,"h":16,"resize":"fit"},"medium":{"w":16,"h":16,"resize":"fit"},"thumb":{"w":16,"h":16,"resize":"crop"}}}]},"extended_entities":{"media":[{"id":997476427325849600,"id_str":"997476427325849600","indices":[0,23],"media_url":"http:\/\/pbs.twimg.com\/media\/Dde_hpqVQAAKmm9.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/Dde_hpqVQAAKmm9.jpg","url":"https:\/\/t.co\/axtsJH9NJL","display_url":"pic.twitter.com\/axtsJH9NJL","expanded_url":"https:\/\/twitter.com\/aplicativo_rc\/status\/997476429775429632\/photo\/1","type":"photo","sizes":{"large":{"w":16,"h":16,"resize":"fit"},"small":{"w":16,"h":16,"resize":"fit"},"medium":{"w":16,"h":16,"resize":"fit"},"thumb":{"w":16,"h":16,"resize":"crop"}}}]},"source":"\u003ca
+        href=\"https:\/\/app.rockcontent.com\/\" rel=\"nofollow\"\u003eAplicativo
+        Rock Content\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":871757613222047744,"id_str":"871757613222047744","name":"Aplicativo
+        RC","screen_name":"aplicativo_rc","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":0,"friends_count":1,"listed_count":0,"created_at":"Mon
+        Jun 05 15:56:26 +0000 2017","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":191,"lang":"pt","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/871759165215166468\/xiSUqwRD_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/871759165215166468\/xiSUqwRD_normal.jpg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"und"}'
+    http_version: 
+  recorded_at: Fri, 18 May 2018 13:58:08 GMT
+recorded_with: VCR 4.0.0

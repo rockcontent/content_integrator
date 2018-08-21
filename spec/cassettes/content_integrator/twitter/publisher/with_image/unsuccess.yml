@@ -1,0 +1,160 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://s3-us-west-2.amazonaws.com/rc2-development/img/branco.jpg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - j+GTFQ4ENmjxf5L+KEkjoVIMWk9cPOLUhyYmE4JQF9BnmmjAtPLG7CIJEZxJDI/89Cp/5Odg2a0=
+      X-Amz-Request-Id:
+      - CE10791D6ACF12BF
+      Date:
+      - Fri, 18 May 2018 13:58:03 GMT
+      Last-Modified:
+      - Tue, 06 Jun 2017 13:54:04 GMT
+      Etag:
+      - '"89aa61afff1043ba8eba836d9e87e64f"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - image/jpeg
+      Content-Length:
+      - '1129'
+      Server:
+      - AmazonS3
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        /9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABQ
+        AAD/4QMtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQg
+        YmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8
+        eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJB
+        ZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYt
+        MTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDov
+        L3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6
+        RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25z
+        LmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5h
+        ZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMu
+        YWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3Jl
+        YXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKE1hY2ludG9zaCkiIHht
+        cE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTI4OTM1Nzk0MkUzMTFFNzhEMEFC
+        NkJERDRBN0M5OTAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTI4OTM1
+        N0E0MkUzMTFFNzhEMEFCNkJERDRBN0M5OTAiPiA8eG1wTU06RGVyaXZlZEZy
+        b20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBMjg5MzU3NzQyRTMxMUU3
+        OEQwQUI2QkRENEE3Qzk5MCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpB
+        Mjg5MzU3ODQyRTMxMUU3OEQwQUI2QkRENEE3Qzk5MCIvPiA8L3JkZjpEZXNj
+        cmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVu
+        ZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAICAgICAgICAgIDAgICAwQD
+        AgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwM
+        DAwBAwMDBQQFCQYGCQ0LCQsNDw4ODg4PDwwMDAwMDw8MDAwMDAwPDAwMDAwM
+        DAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEIABAAEAMBEQACEQEDEQH/xABL
+        AAEBAAAAAAAAAAAAAAAAAAAACQEBAAAAAAAAAAAAAAAAAAAAABABAAAAAAAA
+        AAAAAAAAAAAAABEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Av4AA
+        AD//2Q==
+    http_version: 
+  recorded_at: Fri, 18 May 2018 13:58:02 GMT
+- request:
+    method: post
+    uri: https://upload.twitter.com/1.1/media/upload.json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        LS0tLS0tLS0tLS0tLVJ1YnlNdWx0aXBhcnRQb3N0DQpDb250ZW50LURpc3Bv
+        c2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9Im1lZGlhIjsgZmlsZW5hbWU9ImU2
+        OTE0NzNmNmY0MzdlYzNhMTE3NmViODFkZGU5ZTliMjAxODA1MTgtMTUwMDYt
+        MXFoNDFreCINCkNvbnRlbnQtTGVuZ3RoOiAxMTI5DQpDb250ZW50LVR5cGU6
+        IGFwcGxpY2F0aW9uL29jdGV0LXN0cmVhbQ0KQ29udGVudC1UcmFuc2Zlci1F
+        bmNvZGluZzogYmluYXJ5DQoNCv/Y/+EAGEV4aWYAAElJKgAIAAAAAAAAAAAA
+        AAD/7AARRHVja3kAAQAEAAAAUAAA/+EDLWh0dHA6Ly9ucy5hZG9iZS5jb20v
+        eGFwLzEuMC8APD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhp
+        SHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpu
+        czptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4zLWMwMTEgNjYu
+        MTQ1NjYxLCAyMDEyLzAyLzA2LTE0OjU2OjI3ICAgICAgICAiPiA8cmRmOlJE
+        RiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRm
+        LXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4
+        bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5z
+        OnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxu
+        czpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jl
+        c291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3Ag
+        Q1M2IChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkEy
+        ODkzNTc5NDJFMzExRTc4RDBBQjZCREQ0QTdDOTkwIiB4bXBNTTpEb2N1bWVu
+        dElEPSJ4bXAuZGlkOkEyODkzNTdBNDJFMzExRTc4RDBBQjZCREQ0QTdDOTkw
+        Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5p
+        aWQ6QTI4OTM1Nzc0MkUzMTFFNzhEMEFCNkJERDRBN0M5OTAiIHN0UmVmOmRv
+        Y3VtZW50SUQ9InhtcC5kaWQ6QTI4OTM1Nzg0MkUzMTFFNzhEMEFCNkJERDRB
+        N0M5OTAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94Onht
+        cG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sA
+        hAACAgICAgICAgICAwICAgMEAwICAwQFBAQEBAQFBgUFBQUFBQYGBwcIBwcG
+        CQkKCgkJDAwMDAwMDAwMDAwMDAwMAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8M
+        DAwMDA8PDAwMDAwMDwwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAAR
+        CAAQABADAREAAhEBAxEB/8QASwABAQAAAAAAAAAAAAAAAAAAAAkBAQAAAAAA
+        AAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAARAQAAAAAAAAAAAAAAAAAA
+        AAD/2gAMAwEAAhEDEQA/AL+AAAA//9kNCi0tLS0tLS0tLS0tLS1SdWJ5TXVs
+        dGlwYXJ0UG9zdC0tDQoNCg==
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/6.1.0
+      Authorization:
+      - OAuth oauth_consumer_key="aJm6eTORJLqkpCpJZzTBiDCBO", oauth_nonce="404d5140863892179834b639e5b2f4dd",
+        oauth_signature="XbSTeUAoshnAdImsawc6h%2Bu7WII%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1526651882", oauth_token="invalid", oauth_version="1.0"
+      Content-Type:
+      - multipart/form-data; boundary=-----------RubyMultipartPost
+      Content-Length:
+      - '1411'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 401
+      message: Authorization Required
+    headers:
+      Content-Length:
+      - '87'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 18 May 2018 13:58:02 GMT
+      Server:
+      - tsa_d
+      Set-Cookie:
+      - guest_id=v1%3A152665188236201950; Expires=Sun, 17 May 2020 13:58:02 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_zu2TB/qjAFhHTdUnYovP/w=="; Expires=Sun, 17 May 2020
+        13:58:02 GMT; Path=/; Domain=.twitter.com
+      Strict-Transport-Security:
+      - max-age=631138519
+      Vary:
+      - Origin
+      X-Connection-Hash:
+      - 6c740a2eef554add2586a18106f7758d
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Time:
+      - '191'
+      X-Tsa-Request-Body-Time:
+      - '0'
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"errors":[{"code":89,"message":"Invalid or expired token."}]}'
+    http_version: 
+  recorded_at: Fri, 18 May 2018 13:58:03 GMT
+recorded_with: VCR 4.0.0

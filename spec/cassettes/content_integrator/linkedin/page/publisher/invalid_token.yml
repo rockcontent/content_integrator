@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.linkedin.com/v1/companies/22302249/shares?oauth2_access_token=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    body:
+      encoding: UTF-8
+      string: '{"visibility":{"code":"anyone"},"comment":"My post"}'
+    headers:
+      X-Li-Format:
+      - json
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Li-Request-Id:
+      - 6MYJWIUFQM
+      Date:
+      - Thu, 17 May 2018 20:19:36 GMT
+      Vary:
+      - "*"
+      X-Li-Format:
+      - json
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Li-Fabric:
+      - prod-lor1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Li-Pop:
+      - prod-esp2
+      X-Li-Proto:
+      - http/1.1
+      Set-Cookie:
+      - lidc="b=OB59:g=784:u=1:i=1526588377:t=1526674777:s=AQEFHMO4FZEPiOYZmt9cYSjICSheI7fP"
+      X-Li-Route-Key:
+      - '"b=OB59:g=784:u=1:i=1526588377:t=1526674777:s=AQEFHMO4FZEPiOYZmt9cYSjICSheI7fP"'
+      X-Li-Uuid:
+      - wYvYgQqILxUAEIHtQCsAAA==
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "errorCode": 0,
+          "message": "Invalid access token.",
+          "requestId": "6MYJWIUFQM",
+          "status": 401,
+          "timestamp": 1526588377732
+        }
+    http_version: 
+  recorded_at: Thu, 17 May 2018 20:19:37 GMT
+recorded_with: VCR 4.0.0

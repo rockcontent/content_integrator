@@ -1,0 +1,155 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/me?access_token=EAAT7InLGKxIBABZARwe38Kv9cxHkZB2FS0IKcBdZBZC7Itw3zZCXYIZCXbVSoKuqZA7VnDYhDbWnZAdbcApbM5vlURZCNBxzbKxQ6EQ8HdtXjX7u6U42DrINAQF768GYcw0pBP2JJDCSW5CRPnvDHjmZByPqB0xpTLFlmMrKmid5QN7oBees3oreke
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - '"3241be1e2a9fa6566c4eb2773e1f33784fe8521a"'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '3115815'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - HBuY5JzJGkx
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Debug:
+      - XXkQymSreWkxgesfva4cUNzjsxP5Wt3Ew9F4MNmykMmNktsx47MUOAUQjmZZ2DpS5X0v2hP5aF3TmSBg3g+MKg==
+      Date:
+      - Mon, 26 Jun 2017 16:57:18 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '47'
+    body:
+      encoding: UTF-8
+      string: '{"name":"Aplicativo RC","id":"112322709379095"}'
+    http_version: 
+  recorded_at: Mon, 26 Jun 2017 16:57:25 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/me/picture?access_token=EAAT7InLGKxIBABZARwe38Kv9cxHkZB2FS0IKcBdZBZC7Itw3zZCXYIZCXbVSoKuqZA7VnDYhDbWnZAdbcApbM5vlURZCNBxzbKxQ6EQ8HdtXjX7u6U42DrINAQF768GYcw0pBP2JJDCSW5CRPnvDHjmZByPqB0xpTLFlmMrKmid5QN7oBees3oreke&redirect=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - '"4a0ddac104248231056f0050778b21c7da9c2b32"'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '3115815'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - DBHPTkr/tPx
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - 2gR0IH2DznT8T6rsFoxlnD1SMe8WcuIEts3fRSIf8JtXm+ZUMrAFrmbuTt80B+D8jzS+agngQ2PWZNC3a/3DrA==
+      Date:
+      - Mon, 26 Jun 2017 16:57:19 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '186'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":{"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/c27.0.50.50\/p50x50\/19060114_103174976960535_7878071916786693101_n.jpg?oh=d66a82197671e7d552bdedf1e2322a69&oe=59D185D7"}}'
+    http_version: 
+  recorded_at: Mon, 26 Jun 2017 16:57:25 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/me/accounts?access_token=EAAT7InLGKxIBABZARwe38Kv9cxHkZB2FS0IKcBdZBZC7Itw3zZCXYIZCXbVSoKuqZA7VnDYhDbWnZAdbcApbM5vlURZCNBxzbKxQ6EQ8HdtXjX7u6U42DrINAQF768GYcw0pBP2JJDCSW5CRPnvDHjmZByPqB0xpTLFlmMrKmid5QN7oBees3oreke
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - '"9b33059b4b361f6e948dda9a4e5602c8df9f37d1"'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '3115815'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - FByw9pvxfxc
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - l/MsDquY574/h+WO/Zs8GyQyiGY5na5OIYQ74fPyibfs2apI1vPMCpZVaMUglBRlT4hUeVnl73o5t5jsJZ061w==
+      Date:
+      - Mon, 26 Jun 2017 16:57:19 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '400'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"access_token":"EAAT7InLGKxIBAKqSpBk9sSlnni7GvKmHyKqtfBPLfi7RwjGZBqAL3qXWhRSPtI4Gx3ffz1cBsSjOh1zUTpI9PSy0baGE6HzHuGElFzsrZAYqtwaau0AbMGLN6EZCGyQxCwyvtuhlRfePg3BpDVM5Maqb7zGbmdXxolLWpKWmQRodn30pRJp","category":"Performance
+        Art","name":"Festa promo\u00e7\u00f5es e eventos","id":"650110601844988","perms":["ADMINISTER","EDIT_PROFILE","CREATE_CONTENT","MODERATE_CONTENT","CREATE_ADS","BASIC_ADMIN"]}],"paging":{"cursors":{"before":"NjUwMTEwNjAxODQ0OTg4","after":"NjUwMTEwNjAxODQ0OTg4"}}}'
+    http_version: 
+  recorded_at: Mon, 26 Jun 2017 16:57:25 GMT
+recorded_with: VCR 3.0.3

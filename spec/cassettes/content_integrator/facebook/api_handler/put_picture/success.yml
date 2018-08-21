@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://graph.facebook.com/me/photos
+    body:
+      encoding: UTF-8
+      string: access_token=EAAT7InLGKxIBABZARwe38Kv9cxHkZB2FS0IKcBdZBZC7Itw3zZCXYIZCXbVSoKuqZA7VnDYhDbWnZAdbcApbM5vlURZCNBxzbKxQ6EQ8HdtXjX7u6U42DrINAQF768GYcw0pBP2JJDCSW5CRPnvDHjmZByPqB0xpTLFlmMrKmid5QN7oBees3oreke&caption=My+post&url=https%3A%2F%2Fwww.w3schools.com%2Fcss%2Fparis.jpg
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '3115815'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - Ft0umr1TiZ+
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Debug:
+      - xG+1HHx1QJ/djqRmW8QvzuhMdpMsRdbyKYPc9dYoR5aFFWhciyqAPFLfkMjylQkDOj6lyvkZwPceDiEull+/Ww==
+      Date:
+      - Mon, 26 Jun 2017 18:03:12 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '68'
+    body:
+      encoding: UTF-8
+      string: '{"id":"115409862403713","post_id":"112322709379095_115409862403713"}'
+    http_version: 
+  recorded_at: Mon, 26 Jun 2017 18:03:18 GMT
+recorded_with: VCR 3.0.3

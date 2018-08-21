@@ -1,0 +1,98 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost/wordpress-4.5.3/?data%5Bpost_id%5D=999999999999&rcp-find-post
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin16.6.0 x86_64) ruby/2.3.1p112
+      Rcp-Token:
+      - z1Q1VKChuljMa9GIN8gGUNb1CU/bufeCQxNyKdvtZlNML0DOBFRXtn3/eFH1st/S
+      Host:
+      - localhost
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Tue, 27 Jun 2017 19:42:34 GMT
+      Server:
+      - Apache/2.4.12 (Unix) PHP/5.3.29 mod_wsgi/3.5 Python/2.7.9 OpenSSL/1.0.1j
+      X-Powered-By:
+      - PHP/5.3.29
+      Responded-By:
+      - rcp-plugin
+      Wordpress-Version:
+      - 4.7.5
+      Content-Length:
+      - '49'
+      Content-Type:
+      - application/json;charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '{"error_code":"FP02","errors":["Post not found"]}'
+    http_version: 
+  recorded_at: Tue, 27 Jun 2017 19:42:34 GMT
+- request:
+    method: get
+    uri: http://produtoteste.rockcontent.com/?data%5Bpost_id%5D=999999999999&rcp-find-post
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Rcp-Token:
+      - 2cMEAO2cLYICKtxfkgqVy6HI/4UhglEMitnOVUFYHSqolrL7Y9xuqrpMj_njpT5A
+      App-Version:
+      - RC2
+      Host:
+      - produtoteste.rockcontent.com
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Wed, 02 Aug 2017 17:35:48 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dcf9622b1c9c90ee316d4b1b819d695d71501695347; expires=Thu, 02-Aug-18
+        17:35:47 GMT; path=/; domain=.rockcontent.com; HttpOnly
+      Responded-By:
+      - rcp-plugin
+      Wordpress-Version:
+      - '4.8'
+      X-Php-Response-Code:
+      - '404'
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3882cbb260004bed-GRU
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA6pWSi0qyi+KT85PSVWyUnILMDBS0oGIFStZRSsF5BeXKOTl
+        lyik5ZfmpSjF1gIAAAD//wMAO4ZAdzEAAAA=
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 17:35:48 GMT
+recorded_with: VCR 3.0.3

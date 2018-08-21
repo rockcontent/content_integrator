@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.linkedin.com/v1/people/~/picture-urls::(original)?oauth2_access_token=AQVMYAwQRTiYnneCk-k8V5JURAKqipJh2yvco8jJU6fktRlrCg_qjxcVg1QfrknrIPhpiSqSYdMaYoVr8y9I4vOaecGBHVV-1YIMSEWtLqz9op6tj39jlVij-xLTOk8HjyHq-Jf6-wC7a6MTYMibe_FM-FHeYrqHkiYM_1myJ45ItDpLafw&secure-urls=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Li-Format:
+      - json
+      User-Agent:
+      - Faraday v0.11.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Li-Request-Id:
+      - ZR63HLZZYA
+      Vary:
+      - "*"
+      X-Li-Format:
+      - json
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 05 Jun 2017 15:41:20 GMT
+      X-Li-Fabric:
+      - prod-ltx1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Li-Pop:
+      - prod-esp2-yeah
+      X-Li-Proto:
+      - http/1.1
+      Set-Cookie:
+      - lidc="b=TGST05:g=401:u=1:i=1496677281:t=1496759017:s=AQFGdeOFD4ungriHJrx65-YZ3AQv5y-0"
+      X-Li-Route-Key:
+      - '"b=TGST05:g=401:u=1:i=1496677281:t=1496759017:s=AQFGdeOFD4ungriHJrx65-YZ3AQv5y-0"'
+      X-Li-Uuid:
+      - bZpasA5ExRTAaqpUVCsAAA==
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "_total": 1,
+          "values": ["https://media.licdn.com/mpr/mprx/0_1JVRzpASiQOt0B_1kr6j6Vrm8NGAmR8K3PFjkCAIANYB0c8JAPFZ6WlI3E7ZEUiJcH6j6wrmtymljojrntwNGFKDLymAjolsNtwJBpuSKQ04jgh1N9U4lFGJ6a"]
+        }
+    http_version: 
+  recorded_at: Mon, 05 Jun 2017 15:41:21 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,153 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://produtoteste.rockcontent.com/?rcp-activate-plugin
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Rcp-Token:
+      - PaEuGtqjPD8ITRUmSC0wXLaPv8F2sgOnw7vw1UYCdyelsGKs6zFJyicxS1j/uAhF
+      App-Version:
+      - RC2
+      Host:
+      - produtoteste.rockcontent.com
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Wed, 02 Aug 2017 17:05:57 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d95f537a6000e28c25d8cdf54bfa6ef9f1501693557; expires=Thu, 02-Aug-18
+        17:05:57 GMT; path=/; domain=.rockcontent.com; HttpOnly
+      Responded-By:
+      - rcp-plugin
+      Wordpress-Version:
+      - '4.8'
+      X-Php-Response-Code:
+      - '401'
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 38829ffcb1dd4a4e-GRU
+    body:
+      encoding: UTF-8
+      string: '{"error_code":"TK01","error":"Invalid token"}'
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 17:05:57 GMT
+- request:
+    method: get
+    uri: http://produtoteste.rockcontent.com/?rcp-list-users
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Rcp-Token:
+      - PaEuGtqjPD8ITRUmSC0wXITIBp/tlSIn7LY8Cr1LdKXLvoq3i4xICZ7nx2rvEhUG
+      App-Version:
+      - RC2
+      Host:
+      - produtoteste.rockcontent.com
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Wed, 02 Aug 2017 17:06:04 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d55627c6e76514c48eab37a94dfad8ae91501693564; expires=Thu, 02-Aug-18
+        17:06:04 GMT; path=/; domain=.rockcontent.com; HttpOnly
+      Responded-By:
+      - rcp-plugin
+      Wordpress-Version:
+      - '4.8'
+      X-Php-Response-Code:
+      - '401'
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3882a028c0fd4adf-GRU
+    body:
+      encoding: UTF-8
+      string: '{"error_code":"TK01","error":"Invalid token"}'
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 17:06:04 GMT
+- request:
+    method: get
+    uri: http://produtoteste.rockcontent.com/?rcp-disconnect-plugin
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Rcp-Token:
+      - PaEuGtqjPD8ITRUmSC0wXH9srlyMTGse0OeVmlKA/n_yjLYPlXxGSzwSfCu1ut2M
+      App-Version:
+      - RC2
+      Host:
+      - produtoteste.rockcontent.com
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Wed, 02 Aug 2017 17:06:05 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d8f5a800d8d573abcb2d90db6f31a5f4d1501693565; expires=Thu, 02-Aug-18
+        17:06:05 GMT; path=/; domain=.rockcontent.com; HttpOnly
+      Responded-By:
+      - rcp-plugin
+      Wordpress-Version:
+      - '4.8'
+      X-Php-Response-Code:
+      - '401'
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3882a02dc0c24c48-GRU
+    body:
+      encoding: UTF-8
+      string: '{"error_code":"TK01","error":"Invalid token"}'
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 17:06:05 GMT
+recorded_with: VCR 3.0.3

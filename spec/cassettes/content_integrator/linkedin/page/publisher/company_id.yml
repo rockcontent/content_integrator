@@ -1,0 +1,127 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.linkedin.com/v1/companies/1/shares?oauth2_access_token=AQVYqgcy4rHfRUUeZW-AMDF2LMlHDL33JErVtWluar31l_6TETSp4gsR5okHy8mXVUryWKHpV_9H0TPiHdALidDrd50Hqw8tR_JGR3VGtu9b1Z5E_5iEdcfE9KqdMSEUvfbMCqtCZpwo0fyHqRQbVF7v50ci_1oR7YYrYd97eIMhakhg3fQ
+    body:
+      encoding: UTF-8
+      string: '{"visibility":{"code":"anyone"},"comment":"My post"}'
+    headers:
+      X-Li-Format:
+      - json
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Li-Request-Id:
+      - PA52HAD8XP
+      Date:
+      - Thu, 17 May 2018 20:19:45 GMT
+      Vary:
+      - "*"
+      X-Li-Format:
+      - json
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Li-Fabric:
+      - prod-lva1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Li-Pop:
+      - prod-esp2
+      X-Li-Proto:
+      - http/1.1
+      Set-Cookie:
+      - lidc="b=VB08:g=1713:u=121:i=1526588385:t=1526673346:s=AQE12r5iZpHkgc_Thei6-j2k66WvMwXu"
+      X-Li-Route-Key:
+      - '"b=VB08:g=1713:u=121:i=1526588385:t=1526673346:s=AQE12r5iZpHkgc_Thei6-j2k66WvMwXu"'
+      X-Li-Uuid:
+      - 8R7FdAyILxWQBY3tQCsAAA==
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "errorCode": 0,
+          "message": "Then token used in this request has been revoked by the user.",
+          "requestId": "PA52HAD8XP",
+          "status": 401,
+          "timestamp": 1526588386089
+        }
+    http_version: 
+  recorded_at: Thu, 17 May 2018 20:19:46 GMT
+- request:
+    method: post
+    uri: https://api.linkedin.com/v1/companies/1/shares?oauth2_access_token=AQX-AX0x3XWHjNsV0fEu7nP6hkdmmo4iKXdUt7GyHE1yTm1CkEZrR2eOmrMl2ojZFaSvnbbADM2_A7O0oNDN_ZpjKwgU_YjrYbp6fYykupHB7sTFacohAzf3v-ZIVvaUwBruAgpBiw_FIUQF9ior7qHUP0VrRSDBCmReWZZ06V7GrBmNm7NFlN7ApgiptJ7uiIzLsSX7GoQSrugrNZobWvSs5WNsHHsxKjQwXCB9IAU5mADmHomFhGZ_lIAjeexS-oEBhNFVmIQv8tmSLhjlT-4X3FiJXP0we_HJTVLptqgs0-ehTu3hlnEtnZpQRQOpOVKVLSAIFl2eAszyaCVGQg9CCngJIA
+    body:
+      encoding: UTF-8
+      string: '{"visibility":{"code":"anyone"},"comment":"My post"}'
+    headers:
+      X-Li-Format:
+      - json
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Li-Request-Id:
+      - TMJE7Q600Y
+      Date:
+      - Thu, 17 May 2018 20:47:51 GMT
+      Vary:
+      - "*"
+      X-Li-Format:
+      - json
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Li-Fabric:
+      - prod-lva1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Li-Pop:
+      - prod-esp2
+      X-Li-Proto:
+      - http/1.1
+      Set-Cookie:
+      - lidc="b=VB08:g=1713:u=121:i=1526590072:t=1526673346:s=AQFt5Q3ToIV9CV_jUEqtzrbGrEoyiMtu"
+      X-Li-Route-Key:
+      - '"b=VB08:g=1713:u=121:i=1526590072:t=1526673346:s=AQFt5Q3ToIV9CV_jUEqtzrbGrEoyiMtu"'
+      X-Li-Uuid:
+      - Z5J9HpWJLxXgxA58qCsAAA==
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "errorCode": 0,
+          "message": "Internal service error",
+          "requestId": "TMJE7Q600Y",
+          "status": 500,
+          "timestamp": 1526590072618
+        }
+    http_version: 
+  recorded_at: Thu, 17 May 2018 20:47:52 GMT
+recorded_with: VCR 4.0.0

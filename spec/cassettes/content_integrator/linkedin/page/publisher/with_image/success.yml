@@ -1,0 +1,128 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.linkedin.com/v1/companies/22302249/shares?oauth2_access_token=AQVYqgcy4rHfRUUeZW-AMDF2LMlHDL33JErVtWluar31l_6TETSp4gsR5okHy8mXVUryWKHpV_9H0TPiHdALidDrd50Hqw8tR_JGR3VGtu9b1Z5E_5iEdcfE9KqdMSEUvfbMCqtCZpwo0fyHqRQbVF7v50ci_1oR7YYrYd97eIMhakhg3fQ
+    body:
+      encoding: UTF-8
+      string: '{"visibility":{"code":"anyone"},"content":{"title":"","submitted-url":"https://rockcontent.com","submitted-image-url":"https://s3-us-west-2.amazonaws.com/rc2-development/img/branco.jpg"},"comment":"My
+        post"}'
+    headers:
+      X-Li-Format:
+      - json
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Li-Request-Id:
+      - P1KZN0FN6K
+      Date:
+      - Thu, 17 May 2018 20:19:38 GMT
+      Vary:
+      - "*"
+      X-Li-Format:
+      - json
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Li-Fabric:
+      - prod-lva1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Li-Pop:
+      - prod-esp2
+      X-Li-Proto:
+      - http/1.1
+      Set-Cookie:
+      - lidc="b=VB08:g=1713:u=121:i=1526588378:t=1526673346:s=AQHr_yB6ZyOw5quOO7CQjl3aX4rzJVo5"
+      X-Li-Route-Key:
+      - '"b=VB08:g=1713:u=121:i=1526588378:t=1526673346:s=AQHr_yB6ZyOw5quOO7CQjl3aX4rzJVo5"'
+      X-Li-Uuid:
+      - I8gwpgqILxXgI43tQCsAAA==
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "errorCode": 0,
+          "message": "Then token used in this request has been revoked by the user.",
+          "requestId": "P1KZN0FN6K",
+          "status": 401,
+          "timestamp": 1526588378374
+        }
+    http_version: 
+  recorded_at: Thu, 17 May 2018 20:19:38 GMT
+- request:
+    method: post
+    uri: https://api.linkedin.com/v1/companies/22302249/shares?oauth2_access_token=AQX-AX0x3XWHjNsV0fEu7nP6hkdmmo4iKXdUt7GyHE1yTm1CkEZrR2eOmrMl2ojZFaSvnbbADM2_A7O0oNDN_ZpjKwgU_YjrYbp6fYykupHB7sTFacohAzf3v-ZIVvaUwBruAgpBiw_FIUQF9ior7qHUP0VrRSDBCmReWZZ06V7GrBmNm7NFlN7ApgiptJ7uiIzLsSX7GoQSrugrNZobWvSs5WNsHHsxKjQwXCB9IAU5mADmHomFhGZ_lIAjeexS-oEBhNFVmIQv8tmSLhjlT-4X3FiJXP0we_HJTVLptqgs0-ehTu3hlnEtnZpQRQOpOVKVLSAIFl2eAszyaCVGQg9CCngJIA
+    body:
+      encoding: UTF-8
+      string: '{"visibility":{"code":"anyone"},"content":{"title":"","submitted-url":"https://rockcontent.com","submitted-image-url":"https://s3-us-west-2.amazonaws.com/rc2-development/img/branco.jpg"},"comment":"My
+        post"}'
+    headers:
+      X-Li-Format:
+      - json
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Li-Request-Id:
+      - BY5SGW57F6
+      Location:
+      - https://api.linkedin.com/v1/companies/22302249/shares/s6402979132967256064
+      Vary:
+      - "*"
+      X-Li-Format:
+      - json
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Thu, 17 May 2018 20:33:06 GMT
+      X-Li-Fabric:
+      - prod-lva1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Li-Pop:
+      - prod-esp2
+      X-Li-Proto:
+      - http/1.1
+      Set-Cookie:
+      - lidc="b=VB08:g=1713:u=121:i=1526589186:t=1526673346:s=AQH3-sCWXpEDlB5xoRn6S2UaKq3mIrm1"
+      X-Li-Route-Key:
+      - '"b=VB08:g=1713:u=121:i=1526589186:t=1526673346:s=AQH3-sCWXpEDlB5xoRn6S2UaKq3mIrm1"'
+      X-Li-Uuid:
+      - KlCB48aILxXQVFaU0CoAAA==
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "updateKey": "UPDATE-c22302249-6402979133294407680",
+          "updateUrl": "https://www.linkedin.com/company/22302249/comments?topic=6402979133294407680&type=U&scope=22302249&stype=C&a=jSN_"
+        }
+    http_version: 
+  recorded_at: Thu, 17 May 2018 20:33:07 GMT
+recorded_with: VCR 4.0.0

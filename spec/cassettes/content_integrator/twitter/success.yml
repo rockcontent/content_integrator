@@ -1,0 +1,88 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/6.1.0
+      Authorization:
+      - OAuth oauth_consumer_key="aJm6eTORJLqkpCpJZzTBiDCBO", oauth_nonce="d72519df4ba57660d0a8f5cb24c72cf8",
+        oauth_signature="RbemZ1VgrF9OqzvjSEghmIwiMcY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1526651735", oauth_token="871757613222047744-LuERkhfXKoJynkNDzZY4EI3Qg50YV6c",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '897'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 18 May 2018 13:55:35 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 18 May 2018 13:55:35 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_d
+      Set-Cookie:
+      - guest_id=v1%3A152665173536831885; Expires=Sun, 17 May 2020 13:55:35 GMT; Path=/;
+        Domain=.twitter.com
+      - lang=pt; Path=/
+      - personalization_id="v1_pUARgbDWtMpl7UWHYSc5Sw=="; Expires=Sun, 17 May 2020
+        13:55:35 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 4d92eab8ec1e0f308e46e0bd709997df
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '75'
+      X-Rate-Limit-Remaining:
+      - '74'
+      X-Rate-Limit-Reset:
+      - '1526652635'
+      X-Response-Time:
+      - '166'
+      X-Transaction:
+      - 0037270f001a7529
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":871757613222047744,"id_str":"871757613222047744","name":"Aplicativo
+        RC","screen_name":"aplicativo_rc","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":0,"friends_count":1,"listed_count":0,"created_at":"Mon
+        Jun 05 15:56:26 +0000 2017","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":187,"lang":"pt","status":{"created_at":"Fri
+        May 18 13:32:54 +0000 2018","id":997470082992361472,"id_str":"997470082992361472","text":"\u00daltimo
+        teste https:\/\/t.co\/DKZuB5zoU1","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/DKZuB5zoU1","expanded_url":"http:\/\/edmarferreira.com\/como-pensar-sobre-a-sua-carreira\/","display_url":"edmarferreira.com\/como-pensar-so\u2026","indices":[13,36]}]},"source":"\u003ca
+        href=\"https:\/\/app.rockcontent.com\/\" rel=\"nofollow\"\u003eAplicativo
+        Rock Content\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"es"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/871759165215166468\/xiSUqwRD_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/871759165215166468\/xiSUqwRD_normal.jpg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Fri, 18 May 2018 13:55:36 GMT
+recorded_with: VCR 4.0.0

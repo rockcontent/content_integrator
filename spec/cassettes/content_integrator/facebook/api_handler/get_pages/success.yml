@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/me/accounts?access_token=EAAT7InLGKxIBABZARwe38Kv9cxHkZB2FS0IKcBdZBZC7Itw3zZCXYIZCXbVSoKuqZA7VnDYhDbWnZAdbcApbM5vlURZCNBxzbKxQ6EQ8HdtXjX7u6U42DrINAQF768GYcw0pBP2JJDCSW5CRPnvDHjmZByPqB0xpTLFlmMrKmid5QN7oBees3oreke
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - '"2172df9583653a4bc4501705979a7bcc7d1a9e17"'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '3115815'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - CJw+yJ9uJLU
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - M8HABXq7L0YtFDkZ9oqgAQLfk87ab7hFyE+/lwI60q9bldKwIXjCXEdUDYOAZLr3FPQfJIQaQ6SOtH+u3AcNmA==
+      Date:
+      - Mon, 26 Jun 2017 18:03:09 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '405'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"access_token":"EAAT7InLGKxIBAHHZC5VddxQ8ZCvjV7ZBhw4lZBovWo3CiC1wU4UcjDuwsmlkaAuKHsoL50eC0nQLNpHnv67HacllsAHz52jUwZBT2IwjU9chNsdnZBSOO9FBWcIIsCu2FghdvOTZCDqRSgLnYcTsoHmtEJbZAs0YbR5dEBvwKWyxZAsZCPOHmyHkJe","category":"Performance
+        Art","name":"Festa promo\u00e7\u00f5es e eventos","id":"650110601844988","perms":["ADMINISTER","EDIT_PROFILE","CREATE_CONTENT","MODERATE_CONTENT","CREATE_ADS","BASIC_ADMIN"]}],"paging":{"cursors":{"before":"NjUwMTEwNjAxODQ0OTg4","after":"NjUwMTEwNjAxODQ0OTg4"}}}'
+    http_version: 
+  recorded_at: Mon, 26 Jun 2017 18:03:15 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://produtoteste.rockcontent.com/?rcp-disconnect-plugin
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Rcp-Token:
+      - 2cMEAO2cLYICKtxfkgqVy0WnLgU41Jt9kola82DAJFuWXvfnWi4Roq2eEoUkq2yz
+      App-Version:
+      - RC2
+      Host:
+      - produtoteste.rockcontent.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 02 Aug 2017 16:19:44 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d44991068da5a2428d1c478954fba5b8a1501690783; expires=Thu, 02-Aug-18
+        16:19:43 GMT; path=/; domain=.rockcontent.com; HttpOnly
+      Responded-By:
+      - rcp-plugin
+      Wordpress-Version:
+      - '4.8'
+      X-Php-Response-Code:
+      - '200'
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 38825c4354614b0f-GRU
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA6pWSsksTs7Py0tNLklNiU8sUbJSMjIwNNc1sNA1MFIwNLMy
+        tLQyMVaqBQAAAP//AwCmhSu9KQAAAA==
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 16:19:44 GMT
+recorded_with: VCR 3.0.3

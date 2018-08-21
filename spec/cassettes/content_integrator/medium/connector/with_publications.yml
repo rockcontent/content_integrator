@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.medium.com/v1/users/14f9b6301c7fe1bc69c5a3d1adb47d7a71074c24733748328aec34591e4fc8f84/publications
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Authorization:
+      - Bearer 228761677d72c2bdd1be4589288d242599942105626131bac40d4849c38963505
+      Host:
+      - api.medium.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 26 Sep 2017 20:12:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d2db58584df3cac22387ef9c3a3a805281506456758; expires=Wed, 26-Sep-18
+        20:12:38 GMT; path=/; domain=.medium.com; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Obvious-Info:
+      - 30792-cc7b73a,cc7b73adf4
+      Link:
+      - <https://medium.com/humans.txt>; rel="humans"
+      X-Powered-By:
+      - Medium
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Expires:
+      - Thu, 09 Sep 1999 09:09:09 GMT
+      Pragma:
+      - no-cache
+      Tk:
+      - T
+      X-Opentracing:
+      - '{"ot-tracer-spanid":"398e4372518b4432","ot-tracer-traceid":"0ae4bcdd1b15c568","ot-tracer-sampled":"true"}'
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a48e111a84f4c84-GRU
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA1SNTWvCQBRF/0q4S4kZY03F2Qm6cduWlkgXz5lJMpr5YPIC
+        BfG/l6Ybs7ibwzncOzQxQZ7vsBoS+qXaVdvdhl6pQQ5PzkAiBXVjM7D1LXJo
+        M6hkI9vgIfH+z7M/J1PBs/GcxZ64Ccll1rNpE01ujjH1kOiY4yCFcEbb0RUq
+        ODE/sI5a8zFzlfbLCQ/LsngKG8tCic1qNa1c1OPlUv+M60pdPw/Uncpj/Hrb
+        F9G3eHw/fgEAAP//AwDSlwW37gAAAA==
+    http_version: 
+  recorded_at: Tue, 26 Sep 2017 20:12:38 GMT
+recorded_with: VCR 3.0.3

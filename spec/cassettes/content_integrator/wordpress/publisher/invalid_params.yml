@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://produtoteste.rockcontent.com/?rcp-publish-content
+    body:
+      encoding: UTF-8
+      string: data[post_status]&data[post_content]&data[post_title]&data[post_author]&data[post_category]
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Rcp-Token:
+      - 2cMEAO2cLYICKtxfkgqVyyOXOIW_8KnB33JG9PxycC1w5T0M1_C/2PWsqZ6NaTrH
+      App-Version:
+      - RC2
+      Content-Length:
+      - '91'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - produtoteste.rockcontent.com
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Date:
+      - Wed, 02 Aug 2017 17:06:02 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=de0125501b994f81edb1c0a5afdbdc6221501693562; expires=Thu, 02-Aug-18
+        17:06:02 GMT; path=/; domain=.rockcontent.com; HttpOnly
+      Responded-By:
+      - rcp-plugin
+      Wordpress-Version:
+      - '4.8'
+      X-Php-Response-Code:
+      - '403'
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3882a01b41e14adf-GRU
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA6pWSi0qyi+KT85PSVWyUgoIMDBU0oGIFStZVSsV5BeXxJdk
+        luSAZBEchcxihaLUwtLMotQUJR2IRHJ+XklqXglMHZSLTWVxSWJJaTFMIYSH
+        oq62FgAAAP//AwAuhMhjmAAAAA==
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 17:06:02 GMT
+recorded_with: VCR 3.0.3

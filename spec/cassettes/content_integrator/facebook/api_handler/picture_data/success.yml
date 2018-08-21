@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/me/picture?access_token=EAAT7InLGKxIBABZARwe38Kv9cxHkZB2FS0IKcBdZBZC7Itw3zZCXYIZCXbVSoKuqZA7VnDYhDbWnZAdbcApbM5vlURZCNBxzbKxQ6EQ8HdtXjX7u6U42DrINAQF768GYcw0pBP2JJDCSW5CRPnvDHjmZByPqB0xpTLFlmMrKmid5QN7oBees3oreke&redirect=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - '"4a0ddac104248231056f0050778b21c7da9c2b32"'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '3115815'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - Dn4MJ1lmWCf
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - jcWD4Elzr/xZLZlad4IfnweKb8m3RRxdjPPU6kGkIqmIwri0GIdLve9SSuP7zxqOYrh1oD5nPWEE/Pv8uOH4ig==
+      Date:
+      - Mon, 26 Jun 2017 18:03:09 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '186'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":{"is_silhouette":false,"url":"https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-1\/c27.0.50.50\/p50x50\/19060114_103174976960535_7878071916786693101_n.jpg?oh=d66a82197671e7d552bdedf1e2322a69&oe=59D185D7"}}'
+    http_version: 
+  recorded_at: Mon, 26 Jun 2017 18:03:15 GMT
+recorded_with: VCR 3.0.3

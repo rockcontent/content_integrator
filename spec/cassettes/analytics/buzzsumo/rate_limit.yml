@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.buzzsumo.com/search/articles.json?api_key=api_key&num_days=99999&num_results=100&page=1&q=http://blog-url/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 420
+      message:
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 07 Aug 2017 17:48:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - '420'
+      X-Ratelimit-Reset:
+      - '1502128133'
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Month-Remaining:
+      - '98784'
+      X-Ratelimit-Remaining:
+      - '0'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - bf14e3ccfec49557814579e2d079263e
+      X-Runtime:
+      - '0.047204'
+      X-Rack-Cache:
+      - miss
+    body:
+      encoding: UTF-8
+      string: '{"error":"You have surpassed your rate limit. Please wait until the
+        X-RateLimit-Reset time before making another call. This time is in the X-RateLimit-Reset
+        http response header and is in epoch time."}'
+    http_version:
+  recorded_at: Mon, 07 Aug 2017 17:48:42 GMT
+recorded_with: VCR 3.0.3

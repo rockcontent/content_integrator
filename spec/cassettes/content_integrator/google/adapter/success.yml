@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://accounts.google.com/o/oauth2/token
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "access_token" : "token",
+          "expires_in" : 3600,
+          "id_token" : "id",
+          "token_type" : "Bearer"
+        }
+  recorded_at: Wed, 06 Sep 2017 14:38:07 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/analytics/v3/management/accounts/~all/webproperties/~all/profiles
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '{
+        "kind": "analytics#profiles",
+        "username": "example@example.com",
+        "items": [
+          {
+            "id": "222222222",
+            "kind": "analytics#profile",
+            "selfLink": "https://www.googleapis.com/analytics/v3/management/accounts/111111111/webproperties/UA-111111111-1/profiles/222222222",
+            "accountId": "111111111",
+            "webPropertyId": "UA-111111111-1",
+            "internalWebPropertyId": "333333333",
+            "name": "Todos os dados do website",
+            "currency": "USD",
+            "timezone": "America/Los_Angeles",
+            "websiteUrl": "http://example.com/"
+          }
+        ]
+      }'
+  recorded_at: Wed, 06 Sep 2017 14:38:07 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/analytics/v3/management/accounts/111111111/webproperties/UA-111111111-1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '{
+        "id": "UA-111111111-1",
+        "kind": "analytics#webproperty",
+        "accountId": "111111111",
+        "internalWebPropertyId": "333333333",
+        "name": "Exemplo",
+        "websiteUrl": "http://example.com/",
+        "level": "STANDARD",
+        "profileCount": 1,
+        "defaultProfileId": "222222222"
+      }'
+  recorded_at: Wed, 06 Sep 2017 14:38:08 GMT
+recorded_with: VCR 3.0.3

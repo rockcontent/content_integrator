@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.medium.com/v1/tokens
+    body:
+      encoding: UTF-8
+      string: code=aaaaaaaaaa&client_id=fca79cdd39b6&client_secret=813383ad8fd1a394e0d278dde6a712371fe4b1b7&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flvh.me%3A3020%2Fintegrations%2Fauth%2Fmedium%2Fcallback
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Content-Length:
+      - '205'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - api.medium.com
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 19 Sep 2017 13:41:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '68'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=db1c4602ca6e53c43681b903bf6c771721505828488; expires=Wed, 19-Sep-18
+        13:41:28 GMT; path=/; domain=.medium.com; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Obvious-Info:
+      - 30666-d433cf3,d433cf3da1
+      Link:
+      - <https://medium.com/humans.txt>; rel="humans"
+      X-Powered-By:
+      - Medium
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Expires:
+      - Thu, 09 Sep 1999 09:09:09 GMT
+      Pragma:
+      - no-cache
+      Tk:
+      - T
+      X-Opentracing:
+      - '{"ot-tracer-spanid":"4ab6ad5408f7b7ae","ot-tracer-traceid":"1e236ed0278204cf","ot-tracer-sampled":"true"}'
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a0cf674adf94b4b-GRU
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"message":"Authorization code not found.","code":6016}]}'
+    http_version: 
+  recorded_at: Tue, 19 Sep 2017 13:41:28 GMT
+recorded_with: VCR 3.0.3

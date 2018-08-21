@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/6.1.0
+      Authorization:
+      - OAuth oauth_consumer_key="aJm6eTORJLqkpCpJZzTBiDCBO", oauth_nonce="ade4715932dc0ef5064c67293095e7c8",
+        oauth_signature="5nje5XTmFEvGue1OeO%2BZQvu4HTM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1500408515", oauth_token="871757613222047744-LuERkhfXKoJynkNDzZY4EI3Qg50YV6c",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '779'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Tue, 18 Jul 2017 20:08:40 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Tue, 18 Jul 2017 20:08:40 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_d
+      Set-Cookie:
+      - guest_id=v1%3A150040852078343207; Domain=.twitter.com; Path=/; Expires=Thu,
+        18-Jul-2019 20:08:40 UTC
+      - lang=pt; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - a458721da79f62a724b40d5babc6af4e
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '75'
+      X-Rate-Limit-Remaining:
+      - '74'
+      X-Rate-Limit-Reset:
+      - '1500409420'
+      X-Response-Time:
+      - '180'
+      X-Transaction:
+      - 00915ea300fc7829
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":871757613222047744,"id_str":"871757613222047744","name":"Aplicativo
+        RC","screen_name":"aplicativo_rc","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":0,"friends_count":0,"listed_count":0,"created_at":"Mon
+        Jun 05 15:56:26 +0000 2017","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":60,"lang":"pt","status":{"created_at":"Thu
+        Jun 22 20:05:24 +0000 2017","id":877980864008699904,"id_str":"877980864008699904","text":"Minha
+        primeira postagem","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"source":"\u003ca
+        href=\"https:\/\/app.rockcontent.com\/\" rel=\"nofollow\"\u003eAplicativo
+        Rock Content\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"pt"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/871759165215166468\/xiSUqwRD_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/871759165215166468\/xiSUqwRD_normal.jpg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"}'
+    http_version: 
+  recorded_at: Tue, 18 Jul 2017 20:08:40 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/6.1.0
+      Authorization:
+      - OAuth oauth_consumer_key="invalid", oauth_nonce="5f736c0207efeb5a6ae6282076bbd080",
+        oauth_signature="Z8YAGTDZCfm9wV%2FIcyRc6AwdIvI%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1526651734", oauth_token="871757613222047744-LuERkhfXKoJynkNDzZY4EI3Qg50YV6c",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 401
+      message: Authorization Required
+    headers:
+      Content-Length:
+      - '89'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 18 May 2018 13:55:34 GMT
+      Server:
+      - tsa_d
+      Set-Cookie:
+      - guest_id=v1%3A152665173462972952; Expires=Sun, 17 May 2020 13:55:34 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_Ce272VqZ7Po+vuGtiYW3Ig=="; Expires=Sun, 17 May 2020
+        13:55:34 GMT; Path=/; Domain=.twitter.com
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Connection-Hash:
+      - 7f093d812089c666975005c97f39a1c0
+      X-Response-Time:
+      - '139'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"errors":[{"code":32,"message":"Could not authenticate you."}]}'
+    http_version: 
+  recorded_at: Fri, 18 May 2018 13:55:35 GMT
+recorded_with: VCR 4.0.0

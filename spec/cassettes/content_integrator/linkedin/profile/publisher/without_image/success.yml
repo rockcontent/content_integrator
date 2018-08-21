@@ -1,0 +1,126 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.linkedin.com/v1/people/~/shares?oauth2_access_token=AQUTbsX08lw9jpB0Bh3Rbyc2xsMpS8o6U6nG24ureQOFsumDUqAFcUqd_rUNo3_AURj7xZ-uKdLSqLbGaz_RaKs1uTDZyacIl1cAcVL9wQZ_PF9vgKcMTMISOHaOshEzvdcEvqkNDiuqjVz-3-GHJIUfuRSxPxG2EHuMiwLRaWav2p7DXENnlVIHtJOAA-JTFFIFUjwVXR_2mFGkanvqAsgym5G3E6BEmc7IcNT0f6e8jJIVL1944Y-U_WdzojvCVDss77JFIKWDsY45W2MqY_jz8mHYSkvrHXSsFKC4dIzTubIcahwayRfAmGFKtxnyvywSJtnQ0C237hy_c0S4vjTl-ql5Eg
+    body:
+      encoding: UTF-8
+      string: '{"visibility":{"code":"anyone"},"comment":"My post"}'
+    headers:
+      X-Li-Format:
+      - json
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Li-Request-Id:
+      - 5KP5RHLO1B
+      Location:
+      - https://api.linkedin.com/v1/pal/people/~/network/updates/key=UPDATE-319248707-6402981977514868736
+      Vary:
+      - "*"
+      X-Li-Format:
+      - json
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Thu, 17 May 2018 20:44:24 GMT
+      X-Li-Fabric:
+      - prod-lva1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Li-Pop:
+      - prod-esp2
+      X-Li-Proto:
+      - http/1.1
+      Set-Cookie:
+      - lidc="b=VB07:g=1717:u=387:i=1526589864:t=1526597670:s=AQEtlxcAcBv1du405eXJMfk5NKgzEi8e"
+      X-Li-Route-Key:
+      - '"b=VB07:g=1717:u=387:i=1526589864:t=1526597670:s=AQEtlxcAcBv1du405eXJMfk5NKgzEi8e"'
+      X-Li-Uuid:
+      - On4CoWSJLxWAd1hNVCsAAA==
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "updateKey": "UPDATE-319248707-6402981977514868736",
+          "updateUrl": "https://www.linkedin.com/updates?discuss=&scope=319248707&stype=M&topic=6402981977514868736&type=U&a=yPCI"
+        }
+    http_version: 
+  recorded_at: Thu, 17 May 2018 20:44:25 GMT
+- request:
+    method: post
+    uri: https://api.linkedin.com/v1/people/~/shares?oauth2_access_token=AQVYqgcy4rHfRUUeZW-AMDF2LMlHDL33JErVtWluar31l_6TETSp4gsR5okHy8mXVUryWKHpV_9H0TPiHdALidDrd50Hqw8tR_JGR3VGtu9b1Z5E_5iEdcfE9KqdMSEUvfbMCqtCZpwo0fyHqRQbVF7v50ci_1oR7YYrYd97eIMhakhg3fQ
+    body:
+      encoding: UTF-8
+      string: '{"visibility":{"code":"anyone"},"comment":"My post"}'
+    headers:
+      X-Li-Format:
+      - json
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Li-Request-Id:
+      - CY3F15YT3V
+      Date:
+      - Thu, 17 May 2018 20:44:25 GMT
+      Vary:
+      - "*"
+      X-Li-Format:
+      - json
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Li-Fabric:
+      - prod-lva1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Li-Pop:
+      - prod-esp2
+      X-Li-Proto:
+      - http/1.1
+      Set-Cookie:
+      - lidc="b=VB08:g=1713:u=121:i=1526589865:t=1526673346:s=AQGT06ripNQQXf9KjzNHboVtBmunHcWX"
+      X-Li-Route-Key:
+      - '"b=VB08:g=1713:u=121:i=1526589865:t=1526673346:s=AQGT06ripNQQXf9KjzNHboVtBmunHcWX"'
+      X-Li-Uuid:
+      - UkzO+2SJLxUwDTZSVSsAAA==
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "errorCode": 0,
+          "message": "Then token used in this request has been revoked by the user.",
+          "requestId": "CY3F15YT3V",
+          "status": 401,
+          "timestamp": 1526589865812
+        }
+    http_version: 
+  recorded_at: Thu, 17 May 2018 20:44:25 GMT
+recorded_with: VCR 4.0.0

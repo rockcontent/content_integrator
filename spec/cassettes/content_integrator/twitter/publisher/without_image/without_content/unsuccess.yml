@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.twitter.com/1.1/statuses/update.json
+    body:
+      encoding: UTF-8
+      string: media_ids&status=
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/6.1.0
+      Authorization:
+      - OAuth oauth_consumer_key="aJm6eTORJLqkpCpJZzTBiDCBO", oauth_nonce="2e715ac784a96313765fffe2527182ef",
+        oauth_signature="KYMX9kr%2FV57HLeNylkuUArS38yc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1526651890", oauth_token="871757613222047744-LuERkhfXKoJynkNDzZY4EI3Qg50YV6c",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '98'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 18 May 2018 13:58:10 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 18 May 2018 13:58:10 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_d
+      Set-Cookie:
+      - guest_id=v1%3A152665189043545860; Expires=Sun, 17 May 2020 13:58:10 GMT; Path=/;
+        Domain=.twitter.com
+      - lang=pt; Path=/
+      - personalization_id="v1_19pELqZVsNbbGE0Lm0f1iA=="; Expires=Sun, 17 May 2020
+        13:58:10 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 403 Forbidden
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - a29606721650ed0bb91b346bfa863a5c
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Time:
+      - '167'
+      X-Transaction:
+      - 00fb24030039974c
+      X-Tsa-Request-Body-Time:
+      - '0'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"errors":[{"code":170,"message":"Missing required parameter: status."}]}'
+    http_version: 
+  recorded_at: Fri, 18 May 2018 13:58:11 GMT
+recorded_with: VCR 4.0.0

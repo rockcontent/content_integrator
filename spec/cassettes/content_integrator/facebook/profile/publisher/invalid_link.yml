@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://graph.facebook.com/me/feed
+    body:
+      encoding: UTF-8
+      string: access_token=EAAbIwmK788cBACBFrhlRsNvcm3HfCrRmZC8PThuseZB0pDL9zJ5IVPyKvQ8ize65jKVqnFX0iZCZBD4hAmqVCHrrvKU3tzKrZCtXocewjRZCg34V0AQ7NOIM9VxSi8JXv8GHMonbZCcrxTxS39ZCNCj3EVabMTdb637tNdiz25kmPAZDZD&link=invalid+link&message=My+post
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=15552000; preload
+      X-Fb-Trace-Id:
+      - EDi1e2yJyJz
+      X-Fb-Rev:
+      - '3918072'
+      Content-Type:
+      - application/json; charset=UTF-8
+      Facebook-Api-Version:
+      - v2.10
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Www-Authenticate:
+      - OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - pIql+a5Vywf0HpffM4kxfhFLq/HhC1nm+OiGvOUvZgmPLysAMB2M5R2F9udyI7/oxwqZ71q+t0FZ/e8V0ueJtA==
+      Date:
+      - Thu, 17 May 2018 20:27:46 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '267'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"error":{"message":"Invalid parameter","type":"OAuthException","code":100,"error_data":{"blame_field_specs":[["link"]]},"error_subcode":2061006,"is_transient":false,"error_user_title":"URL
+        Can''t Be Used","error_user_msg":"The URL you entered, \"invalid link\" doesn''t
+        direct to a website. Please enter a valid URL and try again.","fbtrace_id":"EDi1e2yJyJz"}}'
+    http_version: 
+  recorded_at: Thu, 17 May 2018 20:27:45 GMT
+recorded_with: VCR 4.0.0

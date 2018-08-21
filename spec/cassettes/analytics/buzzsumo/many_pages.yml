@@ -1,0 +1,91 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.buzzsumo.com/search/articles.json?api_key=api_key&num_days=99999&num_results=100&page=0&q=http://blog-url/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 07 Aug 2017 17:03:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Ratelimit-Reset:
+      - '1502125391'
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Month-Remaining:
+      - '98808'
+      X-Ratelimit-Remaining:
+      - '9'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"d7be1b51e95c4a7bdff7f35dee6e8410"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 49e5cb7b9b96ffd36b11eddbb03b352f
+      X-Runtime:
+      - '3.318950'
+      X-Rack-Cache:
+      - miss
+    body:
+      encoding: UTF-8
+      string: '{
+        "results":[{
+            "linkedin_shares": 391,
+            "google_plus_shares": 29,
+            "twitter_shares": 22,
+            "pinterest_shares": 192,
+            "total_facebook_shares": 13315,
+            "total_shares": 13949,
+            "title": "First post",
+            "display_title": "First post",
+            "author_name": "Redator Rock Content",
+            "num_words": 1000,
+            "og_url": "http://blog-url/first-post/",
+            "url": "http://blog-url/first-post/",
+            "thumbnail": "http://blog-url/first-thumb.png"
+          }, {
+            "linkedin_shares": 391,
+            "google_plus_shares": 29,
+            "twitter_shares": 22,
+            "pinterest_shares": 192,
+            "total_facebook_shares": 13315,
+            "total_shares": 13949,
+            "title": "Second post",
+            "display_title": "Second post",
+            "author_name": "Redator Rock Content",
+            "num_words": 2000,
+            "og_url": "http://blog-url/second-post/",
+            "url": "http://blog-url/second-post/",
+            "thumbnail": "http://blog-url/second-thumb.png"
+          }],
+        "total_pages":5,
+        "display_code":null,
+        "search_type":"domainSearch"
+      }'
+    http_version:
+  recorded_at: Mon, 07 Aug 2017 17:03:03 GMT
+recorded_with: VCR 3.0.3

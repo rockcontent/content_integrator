@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.medium.com/v1/users/14f9b6301c7fe1bc69c5a3d1adb47d7a71074c24733748328aec34591e4fc8f84/publications
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Authorization:
+      - Bearer 228761677d72c2bdd1be4589288d242599942105626131bac40d4849c38963505
+      Host:
+      - api.medium.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 26 Sep 2017 20:06:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '11'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=db9f53836d52ddf29adeb45e3843ec9561506456372; expires=Wed, 26-Sep-18
+        20:06:12 GMT; path=/; domain=.medium.com; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Obvious-Info:
+      - 30792-cc7b73a,cc7b73adf4
+      Link:
+      - <https://medium.com/humans.txt>; rel="humans"
+      X-Powered-By:
+      - Medium
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Expires:
+      - Thu, 09 Sep 1999 09:09:09 GMT
+      Pragma:
+      - no-cache
+      Tk:
+      - T
+      X-Opentracing:
+      - '{"ot-tracer-spanid":"539cd6ac6f3596e8","ot-tracer-traceid":"5fa9b3ff5474f83d","ot-tracer-sampled":"true"}'
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a48d7a7ecc14bcf-GRU
+    body:
+      encoding: UTF-8
+      string: '{"data":[]}'
+    http_version: 
+  recorded_at: Tue, 26 Sep 2017 20:06:12 GMT
+recorded_with: VCR 3.0.3

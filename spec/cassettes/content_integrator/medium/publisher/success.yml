@@ -1,0 +1,147 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.medium.com/v1/publications/d3595794a6af/posts
+    body:
+      encoding: UTF-8
+      string: title=My+Article&contentFormat=html&content=%3Ch1%3EMy+Article%3C%2Fh1%3EMy+Article+Body&publishStatus=draft
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Authorization:
+      - Bearer 228761677d72c2bdd1be4589288d242599942105626131bac40d4849c38963505
+      Content-Length:
+      - '108'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - api.medium.com
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Tue, 26 Sep 2017 18:58:51 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '331'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d1359ac8355c8bb4c254e659d80e6ac141506452329; expires=Wed, 26-Sep-18
+        18:58:49 GMT; path=/; domain=.medium.com; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Obvious-Info:
+      - 30790-eccdf7c,eccdf7c74d
+      Link:
+      - <https://medium.com/humans.txt>; rel="humans"
+      X-Powered-By:
+      - Medium
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Expires:
+      - Thu, 09 Sep 1999 09:09:09 GMT
+      Pragma:
+      - no-cache
+      Tk:
+      - T
+      X-Opentracing:
+      - '{"ot-tracer-spanid":"6abfc37e0ba7cbf6","ot-tracer-traceid":"616593894a236320","ot-tracer-sampled":"true"}'
+      Location:
+      - https://medium.com/@hugo.dias/32ac7cbbbb42
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a4874f1b9294af7-GRU
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"32ac7cbbbb42","title":"My Article","authorId":"14f9b6301c7fe1bc69c5a3d1adb47d7a71074c24733748328aec34591e4fc8f84","url":"https://medium.com/@hugo.dias/32ac7cbbbb42","canonicalUrl":"","publishStatus":"draft","license":"","licenseUrl":"https://medium.com/policy/9db0094a1e0f","tags":[],"publicationId":"d3595794a6af"}}'
+    http_version: 
+  recorded_at: Tue, 26 Sep 2017 18:58:51 GMT
+- request:
+    method: get
+    uri: https://api.medium.com/v1/users/14f9b6301c7fe1bc69c5a3d1adb47d7a71074c24733748328aec34591e4fc8f84/publications
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.1p112
+      Authorization:
+      - Bearer 228761677d72c2bdd1be4589288d242599942105626131bac40d4849c38963505
+      Host:
+      - api.medium.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 18 Oct 2017 18:42:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=de81eeb4df691161871cdc519423f0a961508352172; expires=Thu, 18-Oct-18
+        18:42:52 GMT; path=/; domain=.medium.com; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Obvious-Info:
+      - 31165-a9125ec,a9125ec621
+      Link:
+      - <https://medium.com/humans.txt>; rel="humans"
+      X-Powered-By:
+      - Medium
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Expires:
+      - Thu, 09 Sep 1999 09:09:09 GMT
+      Pragma:
+      - no-cache
+      Tk:
+      - T
+      X-Opentracing:
+      - '{"ot-tracer-spanid":"6e904cae200423e9","ot-tracer-traceid":"132db33e5fe18fa2","ot-tracer-sampled":"true"}'
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3afda3d44ac24af1-GRU
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA6RQXUvDQBD8K+s+Spqk0VbNm6CggihYqSgil7ttcjb3wd3G
+        CKX/XdIWPxCffNiHGWZ3Z2aFSrDA8mmFWmGJVXGQkyjElKpjTNAKQ1jirCG4
+        1jFqZzFBRVEG7XlAJc4JfFe1OjYQ2QVNMYE3rcjFBIRV4J2SInIEdmDEkiAa
+        ERg8Od/uAIUU7rpquFrRoHNdAEt9bImZwsDUxMANmT3o+z6dNbSzk0qHCXah
+        xRIbZh/LLDOkdGdS6UzGDY3Mp3FtRE33P7RS2dGGjqNx+m1xoTmT2WGeb2a8
+        vyymTl3Kl1yJOLm1Nxfuhs/71Nsa18muO3UwOZkcnRyKqVh8dRecXDJF1rb+
+        1d1sy8OgAeksk2XwreCFCwa0ZaqD4K35PzP+fPCPjI9dVT2+d8VEvs7PRHM1
+        PvcPd6fbjM/rDwAAAP//AwAK/OvGKgIAAA==
+    http_version: 
+  recorded_at: Wed, 18 Oct 2017 18:42:53 GMT
+recorded_with: VCR 3.0.3

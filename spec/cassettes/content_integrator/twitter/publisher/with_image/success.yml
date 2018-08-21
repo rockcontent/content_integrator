@@ -1,0 +1,333 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://s3-us-west-2.amazonaws.com/rc2-development/img/branco.jpg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - f9+PBsOy4l1iLyBjSWvfLhmpnWZIDH3bogAqV7pzAbzv1Xf51ljv293wYpFHzhz/lR0elPAPjk0=
+      X-Amz-Request-Id:
+      - 2B1C9A004FB87256
+      Date:
+      - Fri, 18 May 2018 13:58:04 GMT
+      Last-Modified:
+      - Tue, 06 Jun 2017 13:54:04 GMT
+      Etag:
+      - '"89aa61afff1043ba8eba836d9e87e64f"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - image/jpeg
+      Content-Length:
+      - '1129'
+      Server:
+      - AmazonS3
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        /9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABQ
+        AAD/4QMtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQg
+        YmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8
+        eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJB
+        ZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYt
+        MTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDov
+        L3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6
+        RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25z
+        LmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5h
+        ZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMu
+        YWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3Jl
+        YXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKE1hY2ludG9zaCkiIHht
+        cE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTI4OTM1Nzk0MkUzMTFFNzhEMEFC
+        NkJERDRBN0M5OTAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTI4OTM1
+        N0E0MkUzMTFFNzhEMEFCNkJERDRBN0M5OTAiPiA8eG1wTU06RGVyaXZlZEZy
+        b20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBMjg5MzU3NzQyRTMxMUU3
+        OEQwQUI2QkRENEE3Qzk5MCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpB
+        Mjg5MzU3ODQyRTMxMUU3OEQwQUI2QkRENEE3Qzk5MCIvPiA8L3JkZjpEZXNj
+        cmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVu
+        ZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAICAgICAgICAgIDAgICAwQD
+        AgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwM
+        DAwBAwMDBQQFCQYGCQ0LCQsNDw4ODg4PDwwMDAwMDw8MDAwMDAwPDAwMDAwM
+        DAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEIABAAEAMBEQACEQEDEQH/xABL
+        AAEBAAAAAAAAAAAAAAAAAAAACQEBAAAAAAAAAAAAAAAAAAAAABABAAAAAAAA
+        AAAAAAAAAAAAABEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Av4AA
+        AD//2Q==
+    http_version: 
+  recorded_at: Fri, 18 May 2018 13:58:04 GMT
+- request:
+    method: post
+    uri: https://upload.twitter.com/1.1/media/upload.json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        LS0tLS0tLS0tLS0tLVJ1YnlNdWx0aXBhcnRQb3N0DQpDb250ZW50LURpc3Bv
+        c2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9Im1lZGlhIjsgZmlsZW5hbWU9ImU2
+        OTE0NzNmNmY0MzdlYzNhMTE3NmViODFkZGU5ZTliMjAxODA1MTgtMTUwMDYt
+        ZXJva2thIg0KQ29udGVudC1MZW5ndGg6IDExMjkNCkNvbnRlbnQtVHlwZTog
+        YXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtDQpDb250ZW50LVRyYW5zZmVyLUVu
+        Y29kaW5nOiBiaW5hcnkNCg0K/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAA
+        AP/sABFEdWNreQABAAQAAABQAAD/4QMtaHR0cDovL25zLmFkb2JlLmNvbS94
+        YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlI
+        enJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5z
+        Om1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4x
+        NDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRG
+        IHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYt
+        c3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHht
+        bG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6
+        eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5z
+        OnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+        b3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBD
+        UzYgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTI4
+        OTM1Nzk0MkUzMTFFNzhEMEFCNkJERDRBN0M5OTAiIHhtcE1NOkRvY3VtZW50
+        SUQ9InhtcC5kaWQ6QTI4OTM1N0E0MkUzMTFFNzhEMEFCNkJERDRBN0M5OTAi
+        PiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlp
+        ZDpBMjg5MzU3NzQyRTMxMUU3OEQwQUI2QkRENEE3Qzk5MCIgc3RSZWY6ZG9j
+        dW1lbnRJRD0ieG1wLmRpZDpBMjg5MzU3ODQyRTMxMUU3OEQwQUI2QkRENEE3
+        Qzk5MCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1w
+        bWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCE
+        AAICAgICAgICAgIDAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJ
+        CQoKCQkMDAwMDAwMDAwMDAwMDAwBAwMDBQQFCQYGCQ0LCQsNDw4ODg4PDwwM
+        DAwMDw8MDAwMDAwPDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEI
+        ABAAEAMBEQACEQEDEQH/xABLAAEBAAAAAAAAAAAAAAAAAAAACQEBAAAAAAAA
+        AAAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAABEBAAAAAAAAAAAAAAAAAAAA
+        AP/aAAwDAQACEQMRAD8Av4AAAD//2Q0KLS0tLS0tLS0tLS0tLVJ1YnlNdWx0
+        aXBhcnRQb3N0LS0NCg0K
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/6.1.0
+      Authorization:
+      - OAuth oauth_consumer_key="aJm6eTORJLqkpCpJZzTBiDCBO", oauth_nonce="bc6cd40c65d015eec2852b478660460d",
+        oauth_signature="jhFrlzPYfOfM02R0kJMkkBCdUig%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1526651884", oauth_token="871757613222047744-LuERkhfXKoJynkNDzZY4EI3Qg50YV6c",
+        oauth_version="1.0"
+      Content-Type:
+      - multipart/form-data; boundary=-----------RubyMultipartPost
+      Content-Length:
+      - '1410'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '142'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 18 May 2018 13:58:04 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 18 May 2018 13:58:04 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_d
+      Set-Cookie:
+      - guest_id=v1%3A152665188391354838; Expires=Sun, 17 May 2020 13:58:04 GMT; Path=/;
+        Domain=.twitter.com
+      - lang=pt; Path=/
+      - personalization_id="v1_uTZ4Jk9eBEnvRsP5azrPSA=="; Expires=Sun, 17 May 2020
+        13:58:04 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      Vary:
+      - Origin
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - f11aecd9becae1c836e32e4db59d5eba
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '415'
+      X-Rate-Limit-Remaining:
+      - '412'
+      X-Rate-Limit-Reset:
+      - '1526653234'
+      X-Response-Time:
+      - '616'
+      X-Transaction:
+      - 0087243200c201f3
+      X-Tsa-Request-Body-Time:
+      - '1'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"media_id":997476413916631040,"media_id_string":"997476413916631040","size":1129,"expires_after_secs":86400,"image":{"image_type":"image\/jpeg","w":16,"h":16}}'
+    http_version: 
+  recorded_at: Fri, 18 May 2018 13:58:05 GMT
+- request:
+    method: post
+    uri: https://api.twitter.com/1.1/statuses/update.json
+    body:
+      encoding: UTF-8
+      string: media_ids=997476413916631040&status=My+post
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/6.1.0
+      Authorization:
+      - OAuth oauth_consumer_key="aJm6eTORJLqkpCpJZzTBiDCBO", oauth_nonce="5e082d12eb616fcb77280f0078e49f81",
+        oauth_signature="zq735xHxyCO2N%2FZTmnmbUZq%2FTwI%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1526651885", oauth_token="871757613222047744-LuERkhfXKoJynkNDzZY4EI3Qg50YV6c",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1010'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 18 May 2018 13:58:05 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 18 May 2018 13:58:05 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_d
+      Set-Cookie:
+      - guest_id=v1%3A152665188481822707; Expires=Sun, 17 May 2020 13:58:05 GMT; Path=/;
+        Domain=.twitter.com
+      - lang=pt; Path=/
+      - personalization_id="v1_yfQnFHjDNnIHXzGSUmNp3w=="; Expires=Sun, 17 May 2020
+        13:58:05 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 9b1de1b83b153c292aa602d8f5f323b3
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Time:
+      - '390'
+      X-Transaction:
+      - 0023b24d001826ca
+      X-Tsa-Request-Body-Time:
+      - '0'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: ASCII-8BIT
+      string: '{"created_at":"Fri May 18 13:58:04 +0000 2018","id":997476417599352833,"id_str":"997476417599352833","text":"My
+        post https:\/\/t.co\/v10PrYJtGT","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[],"media":[{"id":997476413916631040,"id_str":"997476413916631040","indices":[8,31],"media_url":"http:\/\/pbs.twimg.com\/media\/Dde_g3tU0AA-de7.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/Dde_g3tU0AA-de7.jpg","url":"https:\/\/t.co\/v10PrYJtGT","display_url":"pic.twitter.com\/v10PrYJtGT","expanded_url":"https:\/\/twitter.com\/aplicativo_rc\/status\/997476417599352833\/photo\/1","type":"photo","sizes":{"large":{"w":16,"h":16,"resize":"fit"},"small":{"w":16,"h":16,"resize":"fit"},"medium":{"w":16,"h":16,"resize":"fit"},"thumb":{"w":16,"h":16,"resize":"crop"}}}]},"extended_entities":{"media":[{"id":997476413916631040,"id_str":"997476413916631040","indices":[8,31],"media_url":"http:\/\/pbs.twimg.com\/media\/Dde_g3tU0AA-de7.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/Dde_g3tU0AA-de7.jpg","url":"https:\/\/t.co\/v10PrYJtGT","display_url":"pic.twitter.com\/v10PrYJtGT","expanded_url":"https:\/\/twitter.com\/aplicativo_rc\/status\/997476417599352833\/photo\/1","type":"photo","sizes":{"large":{"w":16,"h":16,"resize":"fit"},"small":{"w":16,"h":16,"resize":"fit"},"medium":{"w":16,"h":16,"resize":"fit"},"thumb":{"w":16,"h":16,"resize":"crop"}}}]},"source":"\u003ca
+        href=\"https:\/\/app.rockcontent.com\/\" rel=\"nofollow\"\u003eAplicativo
+        Rock Content\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":871757613222047744,"id_str":"871757613222047744","name":"Aplicativo
+        RC","screen_name":"aplicativo_rc","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":0,"friends_count":1,"listed_count":0,"created_at":"Mon
+        Jun 05 15:56:26 +0000 2017","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":190,"lang":"pt","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/871759165215166468\/xiSUqwRD_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/871759165215166468\/xiSUqwRD_normal.jpg","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}'
+    http_version: 
+  recorded_at: Fri, 18 May 2018 13:58:05 GMT
+- request:
+    method: get
+    uri: https://www.w3schools.com/there_are_not_image.jpg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Cache-Control:
+      - Public,public
+      Content-Type:
+      - text/html
+      Date:
+      - Fri, 18 May 2018 13:58:08 GMT
+      Expires:
+      - Fri, 18 May 2018 17:58:08 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - ASPSESSIONIDCCTSDABB=JPEFFMGDIBKDGLNFIALDENOI; path=/
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - ASP.NET
+      Content-Length:
+      - '2515'
+    body:
+      encoding: UTF-8
+      string: "\r\n<!DOCTYPE html>\r\n<html lang=\"en-US\">\r\n<head>\r\n<title>404
+        - Page not found</title>\r\n<meta charset=\"windows-1252\">\r\n<link rel=\"shortcut
+        icon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\r\n<meta name=\"Keywords\"
+        content=\"HTML,CSS,XML,JavaScript,DOM,jQuery,PHP,SQL,colors,tutorial,programming,development,training,learning,quiz,primer,lessons,reference,examples,source
+        code,demos,tips,color table,w3c,cascading style sheets,active server pages,Web
+        building,Webmaster\">\r\n<meta name=\"Description\" content=\"HTML XHTML CSS
+        JavaScript XML XSL SQL Tutorials References Examples\" />\r\n<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"/w3css/3/w3.css\" />\r\n\r\n<script>\r\n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+        Date();a=s.createElement(o),\r\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\nga('create',
+        'UA-3855518-1', 'auto');\r\nga('require', 'displayfeatures');\r\nga('send',
+        'pageview');\r\n</script>\r\n\r\n<style type=\"text/css\">\r\n#goog-wm h3.closest-match,#goog-wm
+        h3.other-things\r\n{\r\nfont-family:verdana,helvetica,arial,sans-serif;\r\nfont-size:120%;\r\n}\r\n#goog-wm
+        ul li\r\n{\r\nfont-family:verdana,helvetica,arial,sans-serif;\r\nfont-size:120%;\r\nmargin-top:3px;\r\n}\r\n#goog-wm
+        h3.closest-match a\r\n{\r\nfont-family:verdana,helvetica,arial,sans-serif;\r\n}\r\nbody{background-color:#ffffff;padding:13px;}\r\n</style>\r\n\r\n</head>\r\n<body>\r\n<div
+        class=\"w3-container w3-green\" style=\"padding:32px 64px\">\r\n<h1>Sorry</h1>\r\n<h1>404
+        - The page cannot be found</h1>\r\n</div>\r\n<div class=\"w3-container w3-light-grey\">\r\n<p>We
+        cannot find the page you are looking for.</p>\r\n<p>It might have been removed,
+        had its name changed, or is temporarily unavailable. </p>\r\n<p>Please check
+        that the Web site address is spelled correctly.</p>\r\n<p>Or go to our \r\n<a
+        href=\"/default.asp\">home page</a>, and use the menus to navigate to a specific
+        section.</p> \r\n</div>\r\n\r\n<script type=\"text/javascript\">\r\n  var
+        GOOG_FIXURL_LANG = 'en';\r\n  var GOOG_FIXURL_SITE = 'https://www.w3schools.com'\r\n</script>\r\n<script
+        type=\"text/javascript\" src=\"https://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js\">\r\n</script>\r\n<script>\r\nvar
+        sitemap = document.getElementsByTagName('li');\r\nfor (var i = 0; i < sitemap.length;
+        i++) {\r\n    if (sitemap[i].innerHTML.indexOf(\"sitemap\") > -1) {\r\n        document.getElementsByTagName('li')[i].style.display=\"none\";\r\n
+        \   }\r\n}\r\n</script>\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Fri, 18 May 2018 13:58:09 GMT
+recorded_with: VCR 4.0.0
