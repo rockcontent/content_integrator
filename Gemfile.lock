@@ -3,6 +3,7 @@ PATH
   specs:
     content_integrator (0.1.0)
       koala (~> 3.0)
+      legato (~> 0.7.0)
       linkedin-oauth2 (~> 1.0)
       twitter (~> 6.1.0)
 
@@ -34,6 +35,8 @@ GEM
       addressable
       faraday
       json (>= 1.8)
+    legato (0.7.0)
+      multi_json
     linkedin-oauth2 (1.0.0)
       faraday (~> 0.9)
       hashie (~> 3.2)

@@ -34,6 +34,9 @@ Gem::Specification.new do |spec|
   spec.add_dependency "twitter", "~> 6.1.0"
   spec.add_dependency "linkedin-oauth2", "~> 1.0"
 
+  # Google Analytics integration
+  spec.add_dependency "legato", "~> 0.7.0"
+
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
