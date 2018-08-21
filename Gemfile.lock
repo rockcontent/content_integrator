@@ -5,6 +5,7 @@ PATH
       koala (~> 3.0)
       legato (~> 0.7.0)
       linkedin-oauth2 (~> 1.0)
+      oauth2 (~> 1.4)
       twitter (~> 6.1.0)
 
 GEM

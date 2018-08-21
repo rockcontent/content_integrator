@@ -37,6 +37,8 @@ Gem::Specification.new do |spec|
   # Google Analytics integration
   spec.add_dependency "legato", "~> 0.7.0"
 
+  spec.add_dependency "oauth2", "~> 1.4"
+
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
