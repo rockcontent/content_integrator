@@ -96,6 +96,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
+    vcr (4.0.0)
 
 PLATFORMS
   ruby
@@ -105,6 +106,7 @@ DEPENDENCIES
   content_integrator!
   rake (~> 10.0)
   rspec (~> 3.0)
+  vcr (~> 4.0.0)
 
 BUNDLED WITH
    1.16.1
