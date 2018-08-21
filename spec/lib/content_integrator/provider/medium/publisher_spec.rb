@@ -1,4 +1,3 @@
-require "rails_helper"
 require "support/vcr"
 require "content_integrator"
 
