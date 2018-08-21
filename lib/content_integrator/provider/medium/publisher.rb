@@ -17,11 +17,11 @@ module ContentIntegrator
         attr_reader :params
 
         def image_tag
-          "<img src='#{ image }' />" if image.present?
+          "<img src='#{ image }' />" if !image.empty?
         end
 
         def image
-          params[:image]
+          params[:image].to_s
         end
 
         def title_tag
@@ -75,7 +75,7 @@ module ContentIntegrator
 
         def format_params
           case
-          when params[:tags].present?
+          when !params[:tags].to_s.empty?
             params_with_tags
           else
             post_params

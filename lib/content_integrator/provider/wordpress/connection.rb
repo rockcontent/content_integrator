@@ -7,7 +7,7 @@ module ContentIntegrator
 
         def initialize(credential)
           @base_url = credential.url
-          @token    = credential.token
+          @token    = credential.token.to_s
 
           validate!
           format_url
@@ -56,8 +56,10 @@ module ContentIntegrator
         end
 
         def validate_token!
-          raise InvalidCredentialsError.new("token_not_provided",
-                                            details: [ "#{token} is not a valid token" ]) unless token.present?
+          if token.empty?
+            raise InvalidCredentialsError.new("token_not_provided",
+                                              details: ["#{token} is not a valid token"])
+          end
         end
 
       end

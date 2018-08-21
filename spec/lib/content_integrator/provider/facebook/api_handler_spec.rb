@@ -14,7 +14,7 @@ describe ContentIntegrator::Provider::Facebook::APIHandler do
 
         response = api_handler.get_pages
 
-        expect(response).to be_present
+        expect(response).not_to be_empty
       end
     end
 
@@ -36,7 +36,7 @@ describe ContentIntegrator::Provider::Facebook::APIHandler do
 
         response = api_handler.account_object
 
-        expect(response).to be_present
+        expect(response).not_to be_empty
       end
     end
 
@@ -58,7 +58,7 @@ describe ContentIntegrator::Provider::Facebook::APIHandler do
 
         response = api_handler.picture_data
 
-        expect(response).to be_present
+        expect(response).not_to be_empty
       end
     end
 
@@ -82,7 +82,7 @@ describe ContentIntegrator::Provider::Facebook::APIHandler do
 
         response = api_handler.put_wall_post(content, link)
 
-        expect(response).to be_present
+        expect(response).not_to be_empty
       end
     end
 
@@ -120,7 +120,7 @@ describe ContentIntegrator::Provider::Facebook::APIHandler do
 
         response = api_handler.put_picture(picture_url, content)
 
-        expect(response).to be_present
+        expect(response).not_to be_empty
       end
     end
     context "with invalid picture url", vcr: { cassette_name: "content_integrator/facebook/api_handler/put_picture/invalid_picture" } do
