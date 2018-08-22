@@ -1,4 +1,5 @@
 require "rspec"
+require 'webmock/rspec'
 require "bundler/setup"
 require "content_integrator"
 
