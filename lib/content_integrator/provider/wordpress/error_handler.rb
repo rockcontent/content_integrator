@@ -1,3 +1,5 @@
+require "json"
+
 module ContentIntegrator
   module Provider
     module Wordpress
