@@ -8,34 +8,25 @@
 
 1. Faça o build da imagem:
 ```bash
-docker build -t rockcontent/content_integrator .
+docker-compose up
 ```
 2. Pronto, para rodar algum comando basta você seguir o exemplo
 ```bash
-docker run -it rockcontent/content_integrator [COMANDO]
-```
-
-Você pode rodar em um comando oneliner também:
-```bash
-docker build -t rockcontent/content_integrator . && docker run -it rockcontent/content_integrator
+docker-compose run --rm gem [COMANDO]
 ```
 
 Alguns comandos:
 
 **Console**
 ```bash
-docker run -it rockcontent/content_integrator
-
-## ou
-
-docker run -it rockcontent/content_integrator irb
+docker-compose run --rm gem irb
 ```
 
 **RSpec**
 ```bash
 # Run all specs
-docker run -it rockcontent/content_integrator rspec
+docker-compose run --rm gem rspec
 
 # Run specific spec
-docker run -it rockcontent/content_integrator rspec spec/lib/content_integrator/connector_spec.rb
+docker-compose run --rm gem rspec spec/lib/content_integrator/connector_spec.rb
 ```
