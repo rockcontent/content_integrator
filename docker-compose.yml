@@ -1,0 +1,7 @@
+version: '3.0'
+services:
+  gem:
+    build: .
+    container_name: content_integrator
+    volumes:
+      - .:/app
