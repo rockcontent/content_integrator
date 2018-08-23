@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    content_integrator (0.1.0)
+    content_integrator (1.0.0)
       koala (~> 3.0)
       legato (~> 0.7.0)
       linkedin-oauth2 (~> 1.0)
