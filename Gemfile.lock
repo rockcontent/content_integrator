@@ -1,10 +1,18 @@
+GIT
+  remote: https://github.com/rockcontent/linkedin-oauth2
+  revision: ceb63460b8b45b7e00766ae3a4c3e361d76c6ffc
+  specs:
+    linkedin-oauth2 (1.0.0)
+      faraday (~> 0.9)
+      hashie (~> 3.2)
+      oauth2 (~> 1.0)
+
 PATH
   remote: .
   specs:
     content_integrator (1.0.0)
       koala (~> 3.0)
       legato (~> 0.7.0)
-      linkedin-oauth2 (~> 1.0)
       oauth2 (~> 1.0)
       rack-timeout (~> 0.5.1)
       rest-client (~> 2.0, >= 2.0.2)
@@ -43,10 +51,6 @@ GEM
       json (>= 1.8)
     legato (0.7.0)
       multi_json
-    linkedin-oauth2 (1.0.0)
-      faraday (~> 0.9)
-      hashie (~> 3.2)
-      oauth2 (~> 1.0)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
     mime-types (3.2.2)
@@ -112,6 +116,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.16)
   content_integrator!
+  linkedin-oauth2 (~> 1.0)!
   rake (~> 10.0)
   rspec (~> 3.8)
   vcr (~> 4.0.0)

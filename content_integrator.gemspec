@@ -32,7 +32,6 @@ Gem::Specification.new do |spec|
   # Social Integrations
   spec.add_dependency "koala", "~> 3.0"
   spec.add_dependency "twitter", "~> 6.1.0"
-  spec.add_dependency "linkedin-oauth2", "~> 1.0"
 
   # Google Analytics integration
   spec.add_dependency "legato", "~> 0.7.0"

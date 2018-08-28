@@ -2,6 +2,9 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
+# Social Integrations
+gem "linkedin-oauth2", "~> 1.0", github: "rockcontent/linkedin-oauth2"
+
 group :test do
   gem "vcr", "~> 4.0.0"
   gem "rspec", "~> 3.8"
